@@ -119,7 +119,7 @@
           "type": "text",
           "settings": {
             "title": "RUNVIK",
-            "content": "<p>📍 <strong>Adresse</strong> : 42 Rue du Marathon, 75012 Paris, France</p><p>⏱ <strong>Horaires</strong> : lundi → vendredi, 9 h – 18 h</p><p>📧 <strong>Email</strong> : contact@runvik.com — réponse garantie sous 24 h ouvrées</p><p>💳 <strong>Paiement sécurisé</strong> </p><p>🚚 <strong>Livraison rapide 24–48 h</strong> </p><p>✅ <strong>Satisfait ou remboursé sous 30 jours</strong></p>",
+            "content": "<p>📍 <strong>Adresse</strong> : 42 Rue du Marathon, 75012 Paris, France</p><p>⏱ <strong>Horaires</strong> : lundi → vendredi, 9 h – 18 h</p><p>📧 <strong>Email</strong> : contact@runvik.com — réponse garantie sous 24 h ouvrées</p>",
             "enable_follow_on_shop": true
           }
         }
