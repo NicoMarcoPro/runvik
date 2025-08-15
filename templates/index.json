@@ -68,28 +68,32 @@
         "logo_J3iLti": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/runners-world-logo-vector.png",
+            "logo_width": 80,
             "link": ""
           }
         },
         "logo_Aeybdj": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/marathon-de-Paris-221x300.gif",
+            "logo_width": 80,
             "link": ""
           }
         },
         "logo_kx6Fza": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/438696528_867419202089893_295073662870814514_n.jpg",
+            "logo_width": 80,
             "link": ""
           }
         },
         "logo_H8Bdj7": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Decathlon-Logo.png",
+            "logo_width": 80,
             "link": ""
           }
         }
@@ -113,7 +117,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "#ffffff",
         "logo_item_border": ""
       }
     },
