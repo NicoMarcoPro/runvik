@@ -405,7 +405,7 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
+        "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "liquid": "<style>\n  .runvik-faq-headline {\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n    font-weight: 800;\n    font-size: clamp(28px, 6vw, 38px);\n    text-align: center;\n    line-height: 1.1;\n    letter-spacing: -0.02em;\n    margin: 0 0 14px 0;\n    color: #000;\n  }\n\n  /* Gradient subtil noir → gris */\n  .runvik-faq-headline .gradient {\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    display: inline-block;\n  }\n\n  /* Trait uniforme Runvik */\n  .runvik-faq-underline {\n    width: clamp(110px, 16vw, 200px);\n    height: 5px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);\n    margin: 14px auto 0;\n  }\n</style>\n\n<div>\n  <h2 class=\"runvik-faq-headline\">\n    <span class=\"gradient\">Vos questions, nos réponses</span>\n  </h2>\n  <div class=\"runvik-faq-underline\"></div>\n</div>",
         "background": "",
