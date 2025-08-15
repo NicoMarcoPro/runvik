@@ -528,6 +528,13 @@
             "title": "Combien de temps durent-elles ?",
             "content": "<p>Avec un entretien approprié, elles conservent leurs performances pendant des centaines de kilomètres.</p>"
           }
+        },
+        "item_weJQgR": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner un produit ?",
+            "content": "<p>Oui, vous disposez de 30 jours après réception pour nous retourner votre commande, tant qu’elle est dans son état d’origine. Remboursement intégral garanti.</p>"
+          }
         }
       },
       "block_order": [
@@ -536,7 +543,8 @@
         "item_J8NVEY",
         "item_gr9Uaf",
         "item_9MtDEm",
-        "item_kNhfXy"
+        "item_kNhfXy",
+        "item_weJQgR"
       ],
       "name": "FAQ",
       "settings": {
