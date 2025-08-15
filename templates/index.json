@@ -322,6 +322,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_4g9dPm": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .runvik-headline {\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n    font-weight: 800;\n    font-size: clamp(26px, 5.5vw, 36px);\n    text-align: center;\n    line-height: 1.1;\n    letter-spacing: -0.02em;\n    margin: 0 0 14px 0;\n    color: #000;\n  }\n\n  .runvik-headline .brand {\n    background: linear-gradient(92deg, #000 0%, #555 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    color: transparent;\n    display: inline-block;\n  }\n\n  .runvik-underline {\n    width: clamp(80px, 14vw, 140px);\n    height: 4px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    margin: 0 auto;\n  }\n</style>\n\n<div>\n  <h2 class=\"runvik-headline\">\n    Rejoignez les <span class=\"brand\">coureurs</span> qui ne reviennent jamais en arrière\n  </h2>\n  <div class=\"runvik-underline\"></div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_maD3fa": {
       "type": "featured-product",
       "blocks": {
@@ -534,6 +547,7 @@
     "slideshow_mgWMbT",
     "custom_liquid_PcCNfG",
     "multi_column_UPxRdn",
+    "custom_liquid_4g9dPm",
     "featured_product_maD3fa",
     "custom_liquid_JAYFeB",
     "faq_Gqcbp6"
