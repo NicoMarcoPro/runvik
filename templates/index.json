@@ -435,6 +435,16 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
+        },
+        "collapsible_text_PWq8G6": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Livraison et retours gratuits",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -450,7 +460,8 @@
         "collapsible_text_GJT4Me",
         "collapsible_text_eknQTQ",
         "collapsible_text_atEMhC",
-        "collapsible_text_KcMyNR"
+        "collapsible_text_KcMyNR",
+        "collapsible_text_PWq8G6"
       ],
       "name": "Featured product",
       "settings": {
