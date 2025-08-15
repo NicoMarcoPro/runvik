@@ -89,13 +89,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
+        "links_qzNjG9": {
+          "type": "links",
           "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "menu": "main-menu",
+            "show_menu_title": true,
+            "menu_title": ""
           }
         },
         "links": {
@@ -116,7 +115,7 @@
         }
       },
       "block_order": [
-        "newsletter",
+        "links_qzNjG9",
         "links",
         "text"
       ],
