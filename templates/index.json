@@ -130,6 +130,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_eVwyxX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .runvik-headline {\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n    font-weight: 800;\n    font-size: clamp(28px, 6vw, 38px); /* même taille que les autres titres Runvik */\n    text-align: center;\n    line-height: 1.1;\n    letter-spacing: -0.02em;\n    margin: 0 0 14px 0;\n    color: #000;\n  }\n\n  .runvik-headline .brand {\n    background: linear-gradient(92deg, #000 0%, #555 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    color: transparent;\n    display: inline-block;\n  }\n\n  /* Ligne identique à celle utilisée sur le site */\n  .runvik-underline {\n    width: clamp(80px, 14vw, 140px);\n    height: 4px;\n    border-radius: 999px;\n    background: #000;\n    margin: 0 auto;\n  }\n</style>\n\n<div>\n  <h2 class=\"runvik-headline\">\n    Pourquoi les meilleurs ne jurent que par <span class=\"brand\">Runvik</span> ?\n  </h2>\n  <div class=\"runvik-underline\"></div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow_mgWMbT": {
       "type": "slideshow",
       "blocks": {
@@ -197,7 +210,7 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "remove_horizontal_spacing": true,
         "liquid": "<style>\n  #shopify-section-{{ section.id }}{\n    --pt: 50px;\n    --pb: 50px;\n    padding-top: var(--pt) !important;\n    padding-bottom: var(--pb) !important;\n  }\n\n  .ony-proof{\n    --ony-heading:\"DIN Next Bold\",\"DIN Next\",Arial,sans-serif;\n    --ony-body:\"DIN Next\",Arial,sans-serif;\n    --ony-grad:linear-gradient(92deg,#000000 0%, #444444 100%);\n    max-width:1100px;margin:0 auto;\n    padding:0 clamp(16px,3vw,24px);\n    text-align:center;\n    font-family:var(--ony-body);\n    color:#0f0f0f;\n  }\n\n  /* Badges container */\n  .kicker-row{\n    display:flex;\n    flex-wrap:wrap;\n    justify-content:center;\n    gap:14px;\n    margin-bottom:24px;\n  }\n\n  /* Badge style premium */\n  .pill{\n    display:flex;\n    align-items:center;\n    gap:10px;\n    padding:10px 18px;\n    border-radius:999px;\n    background:#f8f8f8;\n    border:1px solid #e0e0e0;\n    font-size:15px;\n    font-weight:700;\n    white-space:nowrap;\n    box-shadow:0 2px 4px rgba(0,0,0,.05);\n    transition:all 0.2s ease;\n  }\n  .pill:hover{\n    background:#f0f0f0;\n    transform:translateY(-1px);\n  }\n\n  /* Icône cercle noir */\n  .emblem{\n    width:26px;height:26px;\n    border-radius:50%;\n    background:linear-gradient(145deg,#000000,#333333);\n    display:flex;align-items:center;justify-content:center;\n  }\n  .emblem svg{\n    width:14px;height:14px;color:#fff;\n  }\n\n  /* Titre */\n  .title{\n    font-family:var(--ony-heading);\n    font-weight:800;\n    font-size:clamp(28px,6vw,52px);\n    line-height:1.15;\n    letter-spacing:-.02em;\n    margin:0;\n  }\n  .title .gradient{\n    background:var(--ony-grad);\n    -webkit-background-clip:text;\n    background-clip:text;\n    -webkit-text-fill-color:transparent;\n    display:inline-block;\n  }\n\n  /* Soulignement */\n  .underline{\n    width:clamp(100px,16vw,180px);\n    height:4px;\n    margin:16px auto 0;\n    border-radius:999px;\n    background:var(--ony-grad);\n    box-shadow:0 4px 10px rgba(0,0,0,.15);\n  }\n\n  /* Mobile full width */\n  @media(max-width:600px){\n    .kicker-row{flex-direction:column;align-items:center;}\n    .pill{width:100%;justify-content:center;}\n  }\n</style>\n\n<section class=\"ony-proof\" aria-label=\"Preuves sociales Runvik\">\n  <div class=\"kicker-row\">\n    <span class=\"pill\">\n      <span class=\"emblem\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n          <path d=\"M8 21h8V10H8v11ZM3 21h4V14H3v7Zm14-14v14h4V7h-4Z\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </span>\n      Utilisé en course par les pros\n    </span>\n    <span class=\"pill\">\n      <span class=\"emblem\">\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n          <circle cx=\"9\" cy=\"9\" r=\"3\" stroke-width=\"1.8\"/>\n          <path d=\"M4.5 17a5.5 5.5 0 0 1 9 0\" stroke-width=\"1.8\" stroke-linecap=\"round\"/>\n        </svg>\n      </span>\n      Adopté par 10 000+ coureurs\n    </span>\n  </div>\n\n  <h2 class=\"title\">\n    <span class=\"gradient\">Choisi par ceux</span> qui ne<br>s’arrêtent jamais\n  </h2>\n  <div class=\"underline\" aria-hidden=\"true\"></div>\n</section>",
         "background": "",
@@ -270,6 +283,7 @@
     "custom_liquid_WzfAk7",
     "logo_list_erRa6L",
     "custom_liquid_tyB7KN",
+    "custom_liquid_eVwyxX",
     "slideshow_mgWMbT",
     "custom_liquid_PcCNfG",
     "multi_column_UPxRdn"
