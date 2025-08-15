@@ -54,7 +54,7 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "remove_horizontal_spacing": true,
         "liquid": "<style>\n  /* Espacement de la section */\n  #shopify-section-{{ section.id }} {\n    --pt: 18px;\n    --pb: 18px;\n    padding-top: var(--pt) !important;\n    padding-bottom: var(--pb) !important;\n  }\n\n  .runvik-proof {\n    --align: center;\n    --fs: clamp(22px, 4.8vw, 36px);\n    --weight: 800;\n\n    max-width: 1100px;\n    margin: 0 auto;\n    padding: 0 clamp(16px, 3vw, 24px);\n    text-align: var(--align);\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n  }\n\n  /* Titre avec fallback noir pur */\n  .runvik-proof .title {\n    margin: 0;\n    font-weight: var(--weight);\n    font-size: var(--fs);\n    line-height: 1.08;\n    letter-spacing: -0.02em;\n    color: #000;\n  }\n\n  .runvik-proof .title .gradient {\n    color: #000;\n    display: inline-block;\n    background: none;\n    -webkit-text-fill-color: initial;\n  }\n\n  /* Dégradé noir → gris foncé */\n  @supports (-webkit-background-clip: text) or (background-clip: text) {\n    .runvik-proof .title .gradient {\n      background: linear-gradient(92deg, #000000 0%, #555555 100%);\n      -webkit-background-clip: text;\n      background-clip: text;\n      -webkit-text-fill-color: transparent;\n      color: transparent;\n    }\n  }\n\n  /* Soulignement uniforme */\n  .runvik-proof .underline {\n    width: clamp(110px, 16vw, 200px);\n    height: 5px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);\n    margin: 14px auto 0;\n  }\n\n  /* Variante alignée à gauche */\n  .runvik-proof.left { text-align: left; }\n  .runvik-proof.left .underline { margin-left: 0; }\n</style>\n\n<section class=\"runvik-proof\" aria-label=\"Preuves sociales Runvik\">\n  <h3 class=\"title\">\n    <span class=\"gradient\">Adopté par les coureurs et athlètes du monde entier</span>\n  </h3>\n  <div class=\"underline\" aria-hidden=\"true\"></div>\n</section>",
         "background": "",
@@ -69,7 +69,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/runners-world-logo-vector.png",
-            "logo_width": 80,
+            "logo_width": 120,
             "link": ""
           }
         },
@@ -93,7 +93,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Decathlon-Logo.png",
-            "logo_width": 80,
+            "logo_width": 120,
             "link": ""
           }
         }
