@@ -89,6 +89,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "newsletter_niEEtE": {
+          "type": "newsletter",
+          "settings": {
+            "image": "shopify://shop_images/logo_blanc_fond_noir.png",
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Sign up to our newsletter",
+            "content": ""
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
@@ -115,6 +125,7 @@
         }
       },
       "block_order": [
+        "newsletter_niEEtE",
         "text",
         "links_qzNjG9",
         "links"
