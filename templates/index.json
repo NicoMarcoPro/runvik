@@ -341,7 +341,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "Avantages et détails du produit ",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -351,7 +351,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "Guide des tailles ",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -361,7 +361,17 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "Entretien & composition ",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_KcMyNR": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Retours & remboursements",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -379,7 +389,8 @@
         "pickup_availability_xpYUAz",
         "collapsible_text_GJT4Me",
         "collapsible_text_eknQTQ",
-        "collapsible_text_atEMhC"
+        "collapsible_text_atEMhC",
+        "collapsible_text_KcMyNR"
       ],
       "name": "Featured product",
       "settings": {
