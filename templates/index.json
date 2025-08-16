@@ -73,19 +73,28 @@
             "link": ""
           }
         },
-        "logo_Aeybdj": {
+        "logo_Htkfny": {
           "type": "logo",
           "settings": {
+            "logo": "shopify://shop_images/JI_LOGO_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_Aeybdj": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
             "logo": "shopify://shop_images/marathon-de-Paris-221x300.gif",
-            "logo_width": 80,
+            "logo_width": 120,
             "link": ""
           }
         },
         "logo_kx6Fza": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/438696528_867419202089893_295073662870814514_n.jpg",
-            "logo_width": 80,
+            "logo": "shopify://shop_images/L_Equipe_Logo_svg.png",
+            "logo_width": 120,
             "link": ""
           }
         },
@@ -100,19 +109,20 @@
       },
       "block_order": [
         "logo_J3iLti",
+        "logo_Htkfny",
         "logo_Aeybdj",
         "logo_kx6Fza",
         "logo_H8Bdj7"
       ],
       "name": "Logo list",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_mobile": true,
         "title": "",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
