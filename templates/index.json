@@ -121,19 +121,6 @@
         "logo_item_border": ""
       }
     },
-    "custom_liquid_tyB7KN": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  /* Espacement de la section */\n  #shopify-section-{{ section.id }}{\n    --pt: 20px;   /* ↑ espace au-dessus */\n    --pb: 26px;   /* ↓ espace en-dessous */\n    padding-top: var(--pt) !important;\n    padding-bottom: var(--pb) !important;\n  }\n\n  .ony-fyi{\n    --black:#000000;\n    --grad: linear-gradient(92deg,#000000 0%, #555555 100%);\n    max-width:1100px; margin:0 auto;\n    padding: 0 clamp(16px,3vw,24px);\n    font-family:\"DIN Next\",\"DIN Next Bold\",Arial,sans-serif;\n    color:#0f1b1b; text-align:left;\n  }\n\n  /* Badge \"Le saviez-vous ?\" */\n  .ony-fyi .kicker{\n    display:inline-block; font-weight:800;\n    font-size:14px; letter-spacing:.02em;\n    padding:6px 12px; border-radius:999px;\n    background:#F5F5F5;             /* fond gris clair */\n    color:var(--black);              /* texte noir */\n    border:1px solid #E0E0E0;       /* bord gris clair */\n    margin-bottom:10px;\n  }\n\n  /* Titre avec fallback lisible si le clip n'est pas supporté */\n  .ony-fyi h3{\n    margin:0 0 6px 0;\n    font-family:\"DIN Next Bold\",\"DIN Next\", Arial, sans-serif;\n    font-weight:800;\n    font-size:clamp(22px,4.6vw,32px);\n    line-height:1.1;\n    letter-spacing:-.02em; /* cohérent avec tes headings */\n    color:var(--black);               /* Fallback noir */\n    background:none;\n    -webkit-text-fill-color:initial;\n  }\n  @supports (-webkit-background-clip:text) or (background-clip:text){\n    .ony-fyi h3{\n      background:var(--grad);\n      -webkit-background-clip:text; background-clip:text;\n      -webkit-text-fill-color:transparent; color:transparent;\n    }\n  }\n\n  .ony-fyi p{\n    margin:0; font-family:\"DIN Next\", Arial, sans-serif;\n    font-weight:520;\n    font-size:clamp(14px,2vw,16px);\n    line-height:1.5; color:#555555;\n  }\n</style>\n\n<section class=\"ony-fyi\" aria-label=\"Le saviez-vous ?\">\n  <span class=\"kicker\">Le saviez-vous&nbsp;?</span>\n  <h3>4 coureurs sur 10 finissent leur course avec des ampoules</h3>\n  <p>\n    La friction et l’humidité sont les deux premières causes d’abandon en course.\n    Protégez vos pieds dès le premier kilomètre et courez plus longtemps sans douleur.\n  </p>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_eVwyxX": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -477,7 +464,7 @@
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
-        "enable_image_zoom": true,
+        "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "background": "",
         "background_gradient": "",
@@ -589,7 +576,6 @@
     "slideshow",
     "custom_liquid_WzfAk7",
     "logo_list_erRa6L",
-    "custom_liquid_tyB7KN",
     "custom_liquid_eVwyxX",
     "slideshow_mgWMbT",
     "custom_liquid_PcCNfG",
