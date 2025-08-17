@@ -375,23 +375,11 @@
             "heading_tag": "h2"
           }
         },
-        "badges_FQLcgV": {
-          "type": "badges",
-          "disabled": true,
-          "settings": {}
-        },
         "price_34hYjP": {
           "type": "price",
           "disabled": true,
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "liquid_8XDDya": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<!-- 3 bénéfices clés Runvik -->\n<style>\n  :root{\n    --rv-bg:#f9f9f9;          /* fond gris clair */\n    --rv-hover:#efefef;       /* hover légèrement plus foncé */\n    --rv-text:#000;           \n    --rv-accent:#000;         /* icônes cercle noir */\n    --t:.35s;\n\n    --font:\"DIN Next\", Arial, sans-serif;\n  }\n\n  .rv-bene{\n    font-family:var(--font);\n    display:flex;flex-direction:column;gap:12px;\n    max-width:420px;\n    width:100%;\n    margin:0;\n  }\n\n  .rv-item{\n    display:flex;align-items:center;\n    background:var(--rv-bg);\n    padding:10px 16px;\n    border-radius:10px;\n    transition:background var(--t),transform var(--t);\n  }\n  .rv-item:hover{background:var(--rv-hover);transform:translateX(6px);}\n\n  /* Icônes rond noir */\n  .rv-ico{\n    width:26px;height:26px;\n    border-radius:50%;\n    background:linear-gradient(145deg,#000000,#333333);\n    display:flex;align-items:center;justify-content:center;\n    margin-right:12px;\n    transition:transform var(--t);\n  }\n  .rv-ico svg{width:14px;height:14px;color:#fff;}\n  .rv-item:hover .rv-ico{transform:rotate(360deg);}\n\n  .rv-txt{color:var(--rv-text);font-size:15px;font-weight:600;line-height:1.3;}\n\n  @media(min-width:1024px){ .rv-txt{font-size:14px;} }\n  @media(max-width:600px){\n    .rv-ico{width:22px;height:22px;margin-right:8px;}\n    .rv-ico svg{width:12px;height:12px;}\n    .rv-txt{font-size:13px;}\n  }\n</style>\n\n<div class=\"rv-bene\">\n  <!-- 1 -->\n  <div class=\"rv-item\">\n    <span class=\"rv-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n        <path d=\"m5 13 4 4L19 7\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n    </span>\n    <span class=\"rv-txt\">Confort maximal, même sur les longues distances</span>\n  </div>\n\n  <!-- 2 -->\n  <div class=\"rv-item\">\n    <span class=\"rv-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n        <path d=\"M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z\" stroke-width=\"2\"/>\n        <path d=\"M12 6v6l4 2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n    </span>\n    <span class=\"rv-txt\">Respirabilité et maintien étudiés pour la performance</span>\n  </div>\n\n  <!-- 3 -->\n  <div class=\"rv-item\">\n    <span class=\"rv-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\"/>\n        <path d=\"m9 12 2 2 4-4\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n    </span>\n    <span class=\"rv-txt\">Garantie 100% satisfait ou remboursé</span>\n  </div>\n</div>"
           }
         },
         "liquid_YU4bV7": {
@@ -508,9 +496,7 @@
       },
       "block_order": [
         "title_nMME87",
-        "badges_FQLcgV",
         "price_34hYjP",
-        "liquid_8XDDya",
         "liquid_YU4bV7",
         "rating_FizVXi",
         "separator_EHqGQH",
@@ -533,7 +519,7 @@
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": false,
