@@ -350,10 +350,6 @@
             "heading_tag": "h2"
           }
         },
-        "separator_EHqGQH": {
-          "type": "separator",
-          "settings": {}
-        },
         "price_34hYjP": {
           "type": "price",
           "disabled": true,
@@ -366,6 +362,10 @@
           "settings": {
             "liquid": "<div class=\"benefits-simple\">\n  <div class=\"benefit-line\">Fini les ampoules et frottements douloureux</div>\n  <div class=\"benefit-line\">Pieds au sec et confortables toute la journée</div>\n  <div class=\"benefit-line\">Essayez 30 jours — satisfait ou remboursé</div>\n</div>\n\n<style>\n.benefits-simple {\n  margin: 20px 0;\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;\n}\n\n.benefit-line {\n  font-size: 14px;\n  font-weight: 500;\n  color: #333333;\n  line-height: 1.4;\n  margin-bottom: 6px;\n  position: relative;\n  padding-left: 20px;\n}\n\n.benefit-line:last-child {\n  margin-bottom: 0;\n}\n\n.benefit-line::before {\n  content: '✓';\n  position: absolute;\n  left: 0;\n  color: #000000;\n  font-weight: 700;\n  font-size: 14px;\n}\n</style>"
           }
+        },
+        "separator_EHqGQH": {
+          "type": "separator",
+          "settings": {}
         },
         "text_ApWpib": {
           "type": "text",
@@ -477,9 +477,9 @@
       "block_order": [
         "liquid_NLYC8t",
         "title_nMME87",
-        "separator_EHqGQH",
         "price_34hYjP",
         "liquid_YU4bV7",
+        "separator_EHqGQH",
         "text_ApWpib",
         "rating_FizVXi",
         "variant_picker_9Mfr3P",
