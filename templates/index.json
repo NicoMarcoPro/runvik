@@ -153,7 +153,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/aa.png",
+        "image": "shopify://shop_images/Copy_of_Template_section_benefice_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -705,8 +705,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Comment choisir ma taille ?",
-            "content": "<p>Référez-vous à notre guide des tailles disponible sur la page produit, basé sur votre pointure habituelle.</p>",
+            "title": "Title",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
             "page": ""
           }
         },
@@ -715,18 +715,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Combien de temps durent-elles ?",
-            "content": "<p>Avec un entretien approprié, elles conservent leurs performances pendant des centaines de kilomètres.</p>",
-            "page": ""
-          }
-        },
-        "item_AdTica": {
-          "type": "item",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Puis-je retourner un produit ?",
-            "content": "<p>Oui, vous disposez de 30 jours après réception pour nous retourner votre commande, tant qu’elle est dans son état d’origine. Remboursement intégral garanti.</p>",
+            "title": "Title",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
             "page": ""
           }
         }
@@ -737,8 +727,7 @@
         "item_di73LD",
         "item_CbYJV9",
         "item_pHpqDf",
-        "item_TXX4VU",
-        "item_AdTica"
+        "item_TXX4VU"
       ],
       "name": "Accordion content",
       "settings": {
@@ -757,6 +746,91 @@
         "button_background": "",
         "button_text_color": "",
         "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "faq_Gqcbp6": {
+      "type": "faq",
+      "blocks": {
+        "item_kQYHTJ": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que les chaussettes empêchent vraiment les ampoules ?",
+            "content": "<p>Oui. Chaque orteil est séparé, ce qui réduit la friction et évite les frottements responsables des ampoules.</p>"
+          }
+        },
+        "item_H6KcUG": {
+          "type": "item",
+          "settings": {
+            "title": " Sont-elles adaptées à la transpiration excessive ?",
+            "content": "<p>Absolument. Le tissu technique évacue l’humidité et garde vos pieds au sec, même pendant un marathon ou sous forte chaleur.</p>"
+          }
+        },
+        "item_J8NVEY": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on les utiliser pour autre chose que la course ?",
+            "content": "<p>Oui, elles sont idéales pour la randonnée, le trail, le crossfit, le vélo… et même pour un confort quotidien.</p>"
+          }
+        },
+        "item_gr9Uaf": {
+          "type": "item",
+          "settings": {
+            "title": "Comment les laver ?",
+            "content": "<p>En machine à 30°C, à l’envers, sans adoucissant. Séchage à l’air libre recommandé.</p>"
+          }
+        },
+        "item_9MtDEm": {
+          "type": "item",
+          "settings": {
+            "title": "Comment choisir ma taille ?",
+            "content": "<p>Référez-vous à notre guide des tailles disponible sur la page produit, basé sur votre pointure habituelle.</p>"
+          }
+        },
+        "item_kNhfXy": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps durent-elles ?",
+            "content": "<p>Avec un entretien approprié, elles conservent leurs performances pendant des centaines de kilomètres.</p>"
+          }
+        },
+        "item_weJQgR": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je retourner un produit ?",
+            "content": "<p>Oui, vous disposez de 30 jours après réception pour nous retourner votre commande, tant qu’elle est dans son état d’origine. Remboursement intégral garanti.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_kQYHTJ",
+        "item_H6KcUG",
+        "item_J8NVEY",
+        "item_gr9Uaf",
+        "item_9MtDEm",
+        "item_kNhfXy",
+        "item_weJQgR"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f9f9f9",
         "accordion_text_color": ""
       }
     }
@@ -780,6 +854,7 @@
     "media_with_text_dUKnAA",
     "custom_liquid_VQJk9t",
     "custom_liquid_mqhQaA",
-    "accordion_content_rHEqhi"
+    "accordion_content_rHEqhi",
+    "faq_Gqcbp6"
   ]
 }
