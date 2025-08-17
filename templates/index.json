@@ -123,7 +123,7 @@
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
-        "background": "#1a1a1a",
+        "background": "#f9f9f9",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -246,6 +246,7 @@
         },
         "item_FfgnFQ": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/avis4.jpg",
             "column_size": "3",
@@ -316,7 +317,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "#ffffff",
+        "background": "#f9f9f9",
         "background_gradient": "",
         "text_color": ""
       }
