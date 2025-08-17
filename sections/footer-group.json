@@ -23,8 +23,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Tell your customers about your shipping offer.</p>"
+            "title": "Livraison rapide",
+            "content": "<p>Expédition en 24/48h avec Colissimo.</p>"
           }
         },
         "customer-support": {
@@ -36,8 +36,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "title": "Support réactif",
+            "content": "<p>Une équipe à l’écoute, prête à vous aider.</p>"
           }
         },
         "discount": {
@@ -49,8 +49,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "title": "Satisfait ou remboursé",
+            "content": "<p>30 jours pour essayer sans risque.</p>"
           }
         },
         "payment": {
@@ -62,8 +62,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "title": "Paiement sécurisé",
+            "content": "<p>Transactions 100% protégées et fiables.</p>"
           }
         }
       },
