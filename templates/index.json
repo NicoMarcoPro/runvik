@@ -540,7 +540,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<div class=\"runvik-separator\"></div>\n\n<style>\n.runvik-separator {\n  width: 100%;\n  height: 24px; \n  background: linear-gradient(to right, transparent, #e0e0e0, transparent);\n  margin: 20px 0 40px;\n}\n</style>",
+        "liquid": "<div class=\"runvik-separator\"></div>\n\n<style>\n.runvik-separator {\n  width: 100%;\n  height: 24px; \n  background: linear-gradient(to right, transparent, #e0e0e0, transparent);\n  margin: 0px 0 40px;\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
