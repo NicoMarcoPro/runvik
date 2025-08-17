@@ -362,6 +362,12 @@
             "liquid": "<div class=\"benefits-simple\">\n  <div class=\"benefit-line\">Confort longue distance testé par les pros</div>\n  <div class=\"benefit-line\">Performance maximale, respirabilité optimale</div>\n  <div class=\"benefit-line\">Satisfait ou remboursé sous 30 jours</div>\n</div>\n\n<style>\n.benefits-simple {\n  margin: 20px 0;\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;\n}\n\n.benefit-line {\n  font-size: 14px;\n  font-weight: 500;\n  color: #333333;\n  line-height: 1.4;\n  margin-bottom: 6px;\n  position: relative;\n  padding-left: 20px;\n}\n\n.benefit-line:last-child {\n  margin-bottom: 0;\n}\n\n.benefit-line::before {\n  content: '✓';\n  position: absolute;\n  left: 0;\n  color: #000000;\n  font-weight: 700;\n  font-size: 14px;\n}\n</style>"
           }
         },
+        "text_ApWpib": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pas sûr de votre taille ? Notre guide des tailles interactif vous garantit un ajustement parfait pour des performances optimales.</p>"
+          }
+        },
         "rating_FizVXi": {
           "type": "rating",
           "settings": {
@@ -472,6 +478,7 @@
         "title_nMME87",
         "price_34hYjP",
         "liquid_YU4bV7",
+        "text_ApWpib",
         "rating_FizVXi",
         "separator_EHqGQH",
         "variant_picker_9Mfr3P",
