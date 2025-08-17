@@ -168,8 +168,8 @@
     }
   },
   "order": [
-    "text-with-icons",
     "custom_liquid_kCM34E",
+    "text-with-icons",
     "custom_liquid_dghRWG",
     "footer"
   ]
