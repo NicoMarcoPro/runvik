@@ -145,7 +145,7 @@
           "type": "text",
           "settings": {
             "title": "RUNVIK",
-            "content": "<p>- <strong>Adresse</strong> : 60 Rue François 1er, 75008 Paris</p><p>- <strong>Horaires</strong> : lundi → vendredi, 9 h – 18 h</p><p>- <strong>Email</strong> : contact@runvik.com — réponse garantie sous 24 h ouvrées</p>",
+            "content": "<p><strong>Adresse</strong> : 60 Rue François 1er, 75008 Paris</p><p><strong>Horaires</strong> : lundi → vendredi, 9 h – 18 h</p><p><strong>Email</strong> : contact@runvik.com — réponse garantie sous 24 h ouvrées</p>",
             "enable_follow_on_shop": true
           }
         }
