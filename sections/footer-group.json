@@ -21,8 +21,8 @@
             "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#1a1a1a",
-            "icon_color": "#ffffff",
+            "icon_background": "#ffffff",
+            "icon_color": "#1a1a1a",
             "title": "Livraison rapide",
             "content": "<p>Expédition en 24/48h avec Colissimo.</p>"
           }
@@ -34,8 +34,8 @@
             "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#1a1a1a",
-            "icon_color": "#ffffff",
+            "icon_background": "#ffffff",
+            "icon_color": "#1a1a1a",
             "title": "Support réactif",
             "content": "<p>Une équipe à l’écoute, prête à vous aider.</p>"
           }
@@ -47,8 +47,8 @@
             "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#1a1a1a",
-            "icon_color": "#ffffff",
+            "icon_background": "#ffffff",
+            "icon_color": "#1a1a1a",
             "title": "Satisfait ou remboursé",
             "content": "<p>30 jours pour essayer sans risque.</p>"
           }
@@ -57,11 +57,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "mobile_icon_width": 36,
+            "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#1a1a1a",
-            "icon_color": "#ffffff",
+            "icon_background": "#ffffff",
+            "icon_color": "#1a1a1a",
             "title": "Paiement sécurisé",
             "content": "<p>Transactions 100% protégées et fiables.</p>"
           }
@@ -80,9 +80,9 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#1a1a1a",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#ffffff"
       }
     },
     "footer": {
