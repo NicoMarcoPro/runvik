@@ -349,6 +349,10 @@
             "heading_tag": "h2"
           }
         },
+        "separator_EHqGQH": {
+          "type": "separator",
+          "settings": {}
+        },
         "price_34hYjP": {
           "type": "price",
           "disabled": true,
@@ -373,10 +377,6 @@
           "settings": {
             "show_empty": false
           }
-        },
-        "separator_EHqGQH": {
-          "type": "separator",
-          "settings": {}
         },
         "variant_picker_9Mfr3P": {
           "type": "variant_picker",
@@ -476,11 +476,11 @@
       "block_order": [
         "liquid_NLYC8t",
         "title_nMME87",
+        "separator_EHqGQH",
         "price_34hYjP",
         "liquid_YU4bV7",
         "text_ApWpib",
         "rating_FizVXi",
-        "separator_EHqGQH",
         "variant_picker_9Mfr3P",
         "quantity_selector_CVxkJ8",
         "buy_buttons_8Jmmn3",
