@@ -326,12 +326,26 @@
     },
     "custom_liquid_4g9dPm": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<style>\n  /* Bloc global avec marges customisables */\n  #shopify-section-{{ section.id }} {\n    --mt: 0px; /* marge haut personnalisable */\n    --mb: 100px; /* marge bas personnalisable */\n    margin-top: var(--mt) !important;\n    margin-bottom: var(--mb) !important;\n  }\n\n  .runvik-headline {\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n    font-weight: 800;\n    font-size: clamp(26px, 5.5vw, 36px);\n    text-align: center;\n    line-height: 1.1;\n    letter-spacing: -0.02em;\n    margin: 0 0 14px 0;\n    color: #000;\n  }\n\n  .runvik-headline .brand {\n    background: linear-gradient(92deg, #000 0%, #555 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    color: transparent;\n    display: inline-block;\n  }\n\n  .runvik-underline {\n    width: clamp(80px, 14vw, 140px);\n    height: 4px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    margin: 0 auto;\n  }\n</style>\n\n<div>\n  <h2 class=\"runvik-headline\">\n    Rejoignez les <span class=\"brand\">coureurs</span> qui ne reviennent jamais en arrière\n  </h2>\n  <div class=\"runvik-underline\"></div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_whKpN7": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"hero-title-section\">\n  <h1 class=\"main-title\">\n    Rejoignez les coureurs qui ne reviennent jamais en <span class=\"brand-highlight\">arrière</span>\n  </h1>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');\n\n.hero-title-section {\n  text-align: center;\n  margin: 40px 0 15px 0; /* 40px en haut, 15px en bas - AJUSTEZ ICI */\n  padding: 0 20px;\n}\n\n.main-title {\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;\n  font-size: 2.4rem;\n  font-weight: 800;\n  color: #1a1a1a;\n  line-height: 1.3;\n  margin: 0;\n  letter-spacing: -0.5px;\n  max-width: 1000px;\n  margin: 0 auto;\n  position: relative;\n  padding-bottom: 24px;\n}\n\n.main-title::after {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 120px;\n  height: 6px;\n  background: #000000;\n  border-radius: 3px;\n}\n\n.brand-highlight {\n  background: #000000;\n  color: #ffffff;\n  padding: 4px 12px;\n  border-radius: 6px;\n  font-weight: 800;\n  letter-spacing: 0.5px;\n}\n\n/* Responsive */\n@media (max-width: 1200px) {\n  .main-title {\n    font-size: 2.1rem;\n  }\n}\n\n@media (max-width: 768px) {\n  .hero-title-section {\n    margin: 32px 0 12px 0; /* AJUSTEZ ICI pour tablet */\n    padding: 0 16px;\n  }\n  \n  .main-title {\n    font-size: 1.8rem;\n    letter-spacing: -0.3px;\n    line-height: 1.4;\n    padding-bottom: 20px;\n  }\n  \n  .main-title::after {\n    width: 80px;\n    height: 4px;\n  }\n  \n  .brand-highlight {\n    padding: 3px 10px;\n    border-radius: 5px;\n  }\n}\n\n@media (max-width: 480px) {\n  .hero-title-section {\n    margin: 24px 0 8px 0; /* AJUSTEZ ICI pour mobile */\n  }\n  \n  .main-title {\n    font-size: 1.5rem;\n    line-height: 1.5;\n    padding-bottom: 16px;\n  }\n  \n  .main-title::after {\n    width: 60px;\n    height: 3px;\n  }\n  \n  .brand-highlight {\n    padding: 2px 8px;\n    letter-spacing: 0.3px;\n    border-radius: 4px;\n  }\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -644,6 +658,7 @@
     "custom_liquid_PcCNfG",
     "multi_column_UPxRdn",
     "custom_liquid_4g9dPm",
+    "custom_liquid_whKpN7",
     "featured_product_maD3fa",
     "custom_liquid_JAYFeB",
     "custom_liquid_VQJk9t",
