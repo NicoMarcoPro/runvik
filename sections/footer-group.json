@@ -85,6 +85,19 @@
         "text_color": "#ffffff"
       }
     },
+    "custom_liquid_dghRWG": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"runvik-separator\"></div>\n\n<style>\n.runvik-separator {\n  width: 100%;\n  height: 40px; \n  background: linear-gradient(to right, transparent, #e0e0e0, transparent);\n  margin: 0px 0 0px;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -142,6 +155,7 @@
   },
   "order": [
     "text-with-icons",
+    "custom_liquid_dghRWG",
     "footer"
   ]
 }
