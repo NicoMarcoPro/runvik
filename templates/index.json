@@ -116,7 +116,7 @@
         "logo_H8Bdj7"
       ],
       "custom_css": [
-        "div {padding-bottom: 5px;}",
+        "div {padding-bottom: px;}",
         "div {padding-top: 0px;}"
       ],
       "name": "Logo list",
