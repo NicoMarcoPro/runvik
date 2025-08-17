@@ -70,7 +70,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/runners-world-logo-vector.png",
-            "logo_width": 120,
+            "logo_width": 100,
             "link": ""
           }
         },
@@ -78,7 +78,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/JI_LOGO_1.png",
-            "logo_width": 120,
+            "logo_width": 100,
             "link": ""
           }
         },
@@ -95,7 +95,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/L_Equipe_Logo_svg.png",
-            "logo_width": 120,
+            "logo_width": 100,
             "link": ""
           }
         },
@@ -103,7 +103,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/Decathlon-Logo.png",
-            "logo_width": 120,
+            "logo_width": 100,
             "link": ""
           }
         }
@@ -118,12 +118,12 @@
       "name": "Logo list",
       "settings": {
         "full_width": true,
-        "stack_mobile": false,
+        "stack_mobile": true,
         "title": "",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
-        "background": "#ffffff",
+        "background": "#1a1a1a",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
