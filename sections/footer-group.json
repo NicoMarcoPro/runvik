@@ -85,6 +85,19 @@
         "text_color": "#ffffff"
       }
     },
+    "custom_liquid_kCM34E": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"separator-quote\">\n  <p>\"Plus de <strong>10 000 coureurs</strong> nous font déjà confiance\"</p>\n</section>\n\n<style>\n.separator-quote {\n  background: #f8f8f8;\n  text-align: center;\n  padding: 40px 20px;\n  font-family: 'Poppins', sans-serif;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #1a1a1a;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_dghRWG": {
       "type": "custom-liquid",
       "disabled": true,
@@ -156,6 +169,7 @@
   },
   "order": [
     "text-with-icons",
+    "custom_liquid_kCM34E",
     "custom_liquid_dghRWG",
     "footer"
   ]
