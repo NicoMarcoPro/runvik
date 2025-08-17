@@ -421,7 +421,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Avantages et détails du produit ",
+            "title": "En quoi les chaussettes Runvik sont différentes des chaussettes classiques ?",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -431,7 +431,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Guide des tailles ",
+            "title": "Puis-je les porter pour la marche, la course ou le travail ?",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -441,7 +441,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Entretien & composition ",
+            "title": "Comment choisir ma taille ?",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -451,7 +451,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Retours & remboursements",
+            "title": "Comment entretenir mes chaussettes Runvik ?",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -461,7 +461,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Livraison et retours gratuits",
+            "title": "Quels sont vos délais et conditions de livraison/retour ?",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
