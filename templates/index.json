@@ -151,11 +151,12 @@
         "image_B8FR8x": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/aa.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -163,7 +164,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -236,10 +237,11 @@
     },
     "custom_liquid_Ca9ygC": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<div class=\"trustscore-box\">\n  <div class=\"stars\">\n    <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"5 étoiles\">\n  </div>\n  <div class=\"score\">\n    Trustscore <span>4.9 | 14,500+</span> avis\n  </div>\n</div>\n\n<style>\n  .trustscore-box {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: 20px auto;\n  }\n\n  .trustscore-box .stars img {\n    width: 120px;\n    height: auto;\n  }\n\n  .trustscore-box .score {\n    margin-top: 8px;\n    font-size: 14px;\n    color: #333;\n  }\n\n  .trustscore-box .score span {\n    font-weight: bold;\n  }\n</style>",
         "background": "",
