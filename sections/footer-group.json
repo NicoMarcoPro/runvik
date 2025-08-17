@@ -21,8 +21,8 @@
             "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#1a1a1a",
+            "icon_background": "#1a1a1a",
+            "icon_color": "#ffffff",
             "title": "Livraison rapide",
             "content": "<p>Expédition en 24/48h avec Colissimo.</p>"
           }
@@ -34,8 +34,8 @@
             "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#1a1a1a",
+            "icon_background": "#1a1a1a",
+            "icon_color": "#ffffff",
             "title": "Support réactif",
             "content": "<p>Une équipe à l’écoute, prête à vous aider.</p>"
           }
@@ -47,8 +47,8 @@
             "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#1a1a1a",
+            "icon_background": "#1a1a1a",
+            "icon_color": "#ffffff",
             "title": "Satisfait ou remboursé",
             "content": "<p>30 jours pour essayer sans risque.</p>"
           }
@@ -60,8 +60,8 @@
             "mobile_icon_width": 24,
             "icon_width": 36,
             "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#1a1a1a",
+            "icon_background": "#1a1a1a",
+            "icon_color": "#ffffff",
             "title": "Paiement sécurisé",
             "content": "<p>Transactions 100% protégées et fiables.</p>"
           }
@@ -80,9 +80,9 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "#1a1a1a",
+        "background": "#f9f9f9",
         "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_color": "#000000"
       }
     },
     "custom_liquid_kCM34E": {
@@ -92,7 +92,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<section class=\"separator-quote\">\n  <p>\"Plus de <strong>10 000 coureurs</strong> nous font déjà confiance\"</p>\n</section>\n\n<style>\n.separator-quote {\n  background: #f8f8f8;\n  text-align: center;\n  padding: 40px 20px;\n  font-family: 'Poppins', sans-serif;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #1a1a1a;\n}\n</style>",
+        "liquid": "<section class=\"separator-quote\">\n  <p>\"Plus de <strong>10 000 coureurs</strong> nous font déjà confiance\"</p>\n</section>\n\n<style>\n.separator-quote {\n  background: #1A1A1A;   /* Fond noir */\n  text-align: center;\n  padding: 40px 20px;\n  font-family: 'Poppins', sans-serif;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #ffffff;       /* Texte blanc */\n}\n\n.separator-quote strong {\n  color: #ffffff;       /* Le texte en gras reste blanc */\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
