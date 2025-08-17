@@ -657,6 +657,65 @@
         "text_color": ""
       }
     },
+    "accordion_content_rHEqhi": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_xqKnHN": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Est-ce que les chaussettes empêchent vraiment les ampoules ?",
+            "content": "<p>Oui. Chaque orteil est séparé, ce qui réduit la friction et évite les frottements responsables des ampoules.</p>",
+            "page": ""
+          }
+        },
+        "item_zkftep": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        },
+        "item_di73LD": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_xqKnHN",
+        "item_zkftep",
+        "item_di73LD"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
     "faq_Gqcbp6": {
       "type": "faq",
       "blocks": {
@@ -762,6 +821,7 @@
     "media_with_text_dUKnAA",
     "custom_liquid_VQJk9t",
     "custom_liquid_mqhQaA",
+    "accordion_content_rHEqhi",
     "faq_Gqcbp6"
   ]
 }
