@@ -63,20 +63,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_WzfAk7": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  /* Espacement de la section */\n  #shopify-section-{{ section.id }} {\n    --pt: 18px;\n    --pb: 18px;\n    --mt: -10px; /* marge haut personnalisable */\n    --mb: 0px; /* marge bas personnalisable */\n    padding-top: var(--pt) !important;\n    padding-bottom: var(--pb) !important;\n    margin-top: var(--mt) !important;\n    margin-bottom: var(--mb) !important;\n  }\n\n  .runvik-proof {\n    --align: center;\n    --fs: clamp(22px, 4.8vw, 36px);\n    --weight: 800;\n\n    max-width: 1100px;\n    margin: 0 auto;\n    padding: 0 clamp(16px, 3vw, 24px);\n    text-align: var(--align);\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n  }\n\n  /* Titre avec fallback noir pur */\n  .runvik-proof .title {\n    margin: 0;\n    font-weight: var(--weight);\n    font-size: var(--fs);\n    line-height: 1.08;\n    letter-spacing: -0.02em;\n    color: #000;\n  }\n\n  .runvik-proof .title .gradient {\n    color: #000;\n    display: inline-block;\n    background: none;\n    -webkit-text-fill-color: initial;\n  }\n\n  /* Dégradé noir → gris foncé */\n  @supports (-webkit-background-clip: text) or (background-clip: text) {\n    .runvik-proof .title .gradient {\n      background: linear-gradient(92deg, #000000 0%, #555555 100%);\n      -webkit-background-clip: text;\n      background-clip: text;\n      -webkit-text-fill-color: transparent;\n      color: transparent;\n    }\n  }\n\n  /* Soulignement uniforme */\n  .runvik-proof .underline {\n    width: clamp(110px, 16vw, 200px);\n    height: 5px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);\n    margin: 14px auto 0;\n  }\n\n  /* Variante alignée à gauche */\n  .runvik-proof.left { text-align: left; }\n  .runvik-proof.left .underline { margin-left: 0; }\n</style>\n\n<section class=\"runvik-proof\" aria-label=\"Preuves sociales Runvik\">\n  <h3 class=\"title\">\n    <span class=\"gradient\">Adopté par les coureurs et athlètes du monde entier</span>\n  </h3>\n  <div class=\"underline\" aria-hidden=\"true\"></div>\n</section>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "logo_list_erRa6L": {
       "type": "logo-list",
       "blocks": {
@@ -154,20 +140,6 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "liquid": "<div class=\"hero-title-section-pourquoi\">\n  <h1 class=\"main-title\">\n    Pourquoi les meilleurs ne jurent que par <span class=\"brand-highlight\">Runvik</span> ?\n  </h1>\n</div>\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');\n.hero-title-section-pourquoi {\n  text-align: center;\n  margin: 90px 0 90px 0; /* CHANGEZ ICI ce que vous voulez */\n  padding: 0 20px;\n}\n.main-title {\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;\n  font-size: 2.4rem;\n  font-weight: 800;\n  color: #1a1a1a;\n  line-height: 1.3;\n  margin: 0;\n  letter-spacing: -0.5px;\n  max-width: 1000px;\n  margin: 0 auto;\n  position: relative;\n  padding-bottom: 24px;\n}\n.main-title::after {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 120px;\n  height: 6px;\n  background: #000000;\n  border-radius: 3px;\n}\n.brand-highlight {\n  background: #000000;\n  color: #ffffff;\n  padding: 4px 12px;\n  border-radius: 6px;\n  font-weight: 800;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n@media (max-width: 768px) {\n  .hero-title-section-pourquoi {\n    margin: 30px 0 20px 0; /* CHANGEZ ICI pour mobile */\n    padding: 0 16px;\n  }\n  .main-title {\n    font-size: 1.8rem;\n    letter-spacing: -0.3px;\n    line-height: 1.4;\n    padding-bottom: 20px;\n  }\n  .main-title::after {\n    width: 80px;\n    height: 4px;\n  }\n  .brand-highlight {\n    padding: 3px 10px;\n    border-radius: 5px;\n  }\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_eVwyxX": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .runvik-headline {\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n    font-weight: 800;\n    font-size: clamp(28px, 6vw, 38px); /* Taille uniforme Runvik */\n    text-align: center;\n    line-height: 1.1;\n    letter-spacing: -0.02em;\n    margin: 0 0 14px 0;\n    color: #000;\n  }\n\n  .runvik-headline .brand {\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    display: inline-block;\n  }\n\n  /* Ligne identique aux autres sections Runvik */\n  .runvik-underline {\n    width: clamp(110px, 16vw, 200px); /* aligné aux autres traits */\n    height: 5px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    box-shadow: 0 2px 8px rgba(0,0,0,.15);\n    margin: 14px auto 0;\n  }\n</style>\n\n<div>\n  <h2 class=\"runvik-headline\">\n    Pourquoi les meilleurs ne jurent que par <span class=\"brand\">Runvik</span> ?\n  </h2>\n  <div class=\"runvik-underline\"></div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -366,20 +338,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_4g9dPm": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  /* Bloc global avec marges customisables */\n  #shopify-section-{{ section.id }} {\n    --mt: 0px; /* marge haut personnalisable */\n    --mb: 100px; /* marge bas personnalisable */\n    margin-top: var(--mt) !important;\n    margin-bottom: var(--mb) !important;\n  }\n\n  .runvik-headline {\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n    font-weight: 800;\n    font-size: clamp(26px, 5.5vw, 36px);\n    text-align: center;\n    line-height: 1.1;\n    letter-spacing: -0.02em;\n    margin: 0 0 14px 0;\n    color: #000;\n  }\n\n  .runvik-headline .brand {\n    background: linear-gradient(92deg, #000 0%, #555 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    color: transparent;\n    display: inline-block;\n  }\n\n  .runvik-underline {\n    width: clamp(80px, 14vw, 140px);\n    height: 4px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    margin: 0 auto;\n  }\n</style>\n\n<div>\n  <h2 class=\"runvik-headline\">\n    Rejoignez les <span class=\"brand\">coureurs</span> qui ne reviennent jamais en arrière\n  </h2>\n  <div class=\"runvik-underline\"></div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_whKpN7": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -539,6 +497,7 @@
         },
         "liquid_7JapBB": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"warning-compact\">\n  <div class=\"warning-text\">\n    <div class=\"warning-header\">\n      <svg class=\"warning-icon-inline\" viewBox=\"0 0 24 24\" fill=\"none\">\n        <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\" fill=\"currentColor\"/>\n      </svg>\n      <span class=\"warning-label\">IMPORTANT</span>\n    </div>\n    <div class=\"warning-content\">\n      Seul notre site officiel <strong>RUNVIK</strong> commercialise nos produits authentiques. \n      <span class=\"highlight\">Méfiez-vous des contrefaçons</span> ; commandez chez nous pour une \n      <strong>expérience 100% garantie</strong>.\n    </div>\n  </div>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');\n\n.warning-compact {\n  background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 50%, #f5f5f5 100%);\n  border: 1px solid #333333;\n  border-radius: 8px;\n  padding: 12px 16px;\n  margin: 16px 0;\n  font-family: 'Inter', sans-serif;\n  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);\n  position: relative;\n}\n\n.warning-compact::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 2px;\n  background: #000000;\n  border-radius: 8px 8px 0 0;\n}\n\n.warning-text {\n  text-align: center;\n}\n\n.warning-header {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  margin-bottom: 4px;\n}\n\n.warning-icon-inline {\n  width: 14px;\n  height: 14px;\n  color: #000000;\n  flex-shrink: 0;\n}\n\n.warning-label {\n  font-weight: 700;\n  color: #000000;\n  letter-spacing: 0.5px;\n  font-size: 12px;\n}\n\n.warning-content {\n  font-size: 12px;\n  color: #1a1a1a;\n  line-height: 1.4;\n}\n\n.warning-content strong {\n  font-weight: 700;\n  color: #000000;\n  text-transform: uppercase;\n}\n\n.highlight {\n  color: #333333;\n  font-weight: 600;\n  text-transform: uppercase;\n  text-decoration: underline;\n  text-decoration-color: #666666;\n}\n\n/* Desktop */\n@media (min-width: 769px) {\n  .warning-text {\n    text-align: left;\n  }\n  \n  .warning-header {\n    display: inline;\n    margin-bottom: 0;\n    margin-right: 4px;\n  }\n  \n  .warning-header::after {\n    content: ' : ';\n  }\n  \n  .warning-content {\n    display: inline;\n  }\n}\n\n/* Mobile Optimisé */\n@media (max-width: 768px) {\n  .warning-compact {\n    padding: 10px 12px;\n  }\n  \n  .warning-label {\n    font-size: 11px;\n  }\n  \n  .warning-content {\n    font-size: 11px;\n  }\n  \n  .warning-icon-inline {\n    width: 12px;\n    height: 12px;\n  }\n}\n\n@media (max-width: 480px) {\n  .warning-compact {\n    padding: 8px 10px;\n  }\n  \n  .warning-label {\n    font-size: 10px;\n  }\n  \n  .warning-content {\n    font-size: 10px;\n    line-height: 1.3;\n  }\n  \n  .warning-icon-inline {\n    width: 10px;\n    height: 10px;\n  }\n  \n  .warning-header {\n    gap: 4px;\n    margin-bottom: 6px;\n  }\n}\n</style>"
           }
@@ -583,20 +542,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "custom_liquid_JAYFeB": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .runvik-faq-headline {\n    font-family: \"DIN Next Bold\", \"DIN Next\", Arial, sans-serif;\n    font-weight: 800;\n    font-size: clamp(28px, 6vw, 38px);\n    text-align: center;\n    line-height: 1.1;\n    letter-spacing: -0.02em;\n    margin: 0 0 14px 0;\n    color: #000;\n  }\n\n  /* Gradient subtil noir → gris */\n  .runvik-faq-headline .gradient {\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    -webkit-background-clip: text;\n    background-clip: text;\n    -webkit-text-fill-color: transparent;\n    display: inline-block;\n  }\n\n  /* Trait uniforme Runvik */\n  .runvik-faq-underline {\n    width: clamp(110px, 16vw, 200px);\n    height: 5px;\n    border-radius: 999px;\n    background: linear-gradient(92deg, #000000 0%, #555555 100%);\n    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);\n    margin: 14px auto 0;\n  }\n</style>\n\n<div>\n  <h2 class=\"runvik-faq-headline\">\n    <span class=\"gradient\">Tout ce que vous devez savoir avant de courir avec Runvik</span>\n  </h2>\n  <div class=\"runvik-faq-underline\"></div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "custom_liquid_VQJk9t": {
@@ -701,18 +646,14 @@
   "order": [
     "slideshow",
     "custom_liquid_Pk4Jed",
-    "custom_liquid_WzfAk7",
     "logo_list_erRa6L",
     "custom_liquid_kPf6mM",
-    "custom_liquid_eVwyxX",
     "slideshow_mgWMbT",
     "custom_liquid_PcCNfG",
     "custom_liquid_cRBNJ8",
     "multi_column_UPxRdn",
-    "custom_liquid_4g9dPm",
     "custom_liquid_whKpN7",
     "featured_product_maD3fa",
-    "custom_liquid_JAYFeB",
     "custom_liquid_VQJk9t",
     "faq_Gqcbp6"
   ]
