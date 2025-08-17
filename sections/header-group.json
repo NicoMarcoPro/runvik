@@ -25,6 +25,10 @@
       "block_order": [
         "message"
       ],
+      "custom_css": [
+        "div {padding-bottom: -10px;}",
+        "div {padding-top: -10px;}"
+      ],
       "settings": {
         "enable_sticky": true,
         "autoplay": false,
