@@ -246,7 +246,6 @@
         },
         "item_FfgnFQ": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/avis4.jpg",
             "column_size": "3",
@@ -286,6 +285,7 @@
         },
         "item_FgzD3F": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/avis6.jpg",
             "column_size": "3",
