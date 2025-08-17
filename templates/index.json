@@ -512,6 +512,42 @@
         "input_text_color": ""
       }
     },
+    "media_with_text_4MC34N": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_VwWDT6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/couv.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VwWDT6"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
     "custom_liquid_VQJk9t": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -636,6 +672,7 @@
     "multi_column_UPxRdn",
     "custom_liquid_whKpN7",
     "featured_product_maD3fa",
+    "media_with_text_4MC34N",
     "custom_liquid_VQJk9t",
     "custom_liquid_mqhQaA",
     "faq_Gqcbp6"
