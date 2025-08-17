@@ -90,8 +90,8 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
         "liquid": "<section class=\"separator-quote\">\n  <p>\"Plus de <strong>10 000 coureurs</strong> nous font déjà confiance\"</p>\n</section>\n\n<style>\n.separator-quote {\n  background: #f8f8f8;\n  text-align: center;\n  padding: 40px 20px;\n  font-family: 'Poppins', sans-serif;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #1a1a1a;\n}\n</style>",
         "background": "",
         "background_gradient": "",
