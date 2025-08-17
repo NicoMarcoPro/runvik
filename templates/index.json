@@ -115,6 +115,10 @@
         "logo_kx6Fza",
         "logo_H8Bdj7"
       ],
+      "custom_css": [
+        "div {padding-bottom: 5px;}",
+        "div {padding-top: 0px;}"
+      ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
