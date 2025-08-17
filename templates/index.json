@@ -337,6 +337,12 @@
     "featured_product_maD3fa": {
       "type": "featured-product",
       "blocks": {
+        "liquid_NLYC8t": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"customer-rating\">\n  <div class=\"stars\">\n    <svg class=\"star\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n      <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n    </svg>\n    <svg class=\"star\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n      <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n    </svg>\n    <svg class=\"star\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n      <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n    </svg>\n    <svg class=\"star\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n      <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n    </svg>\n    <svg class=\"star\" viewBox=\"0 0 24 24\" fill=\"currentColor\">\n      <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n    </svg>\n  </div>\n  <span class=\"rating-text\">Noté 4,8/5 par plus de 2000 coureurs</span>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');\n\n.customer-rating {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 16px 0;\n  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;\n}\n\n.stars {\n  display: flex;\n  gap: 2px;\n}\n\n.star {\n  width: 16px;\n  height: 16px;\n  color: #000000;\n  fill: currentColor;\n}\n\n.rating-text {\n  font-size: 14px;\n  font-weight: 600;\n  color: #1a1a1a;\n  letter-spacing: -0.1px;\n}\n\n/* Mobile */\n@media (max-width: 480px) {\n  .customer-rating {\n    margin: 12px 0;\n    gap: 6px;\n  }\n  \n  .star {\n    width: 14px;\n    height: 14px;\n  }\n  \n  .rating-text {\n    font-size: 13px;\n  }\n}\n</style>"
+          }
+        },
         "title_nMME87": {
           "type": "title",
           "settings": {
@@ -462,6 +468,7 @@
         }
       },
       "block_order": [
+        "liquid_NLYC8t",
         "title_nMME87",
         "price_34hYjP",
         "liquid_YU4bV7",
