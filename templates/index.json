@@ -310,7 +310,7 @@
             "column_size": "3",
             "title": "Confort du premier au dernier kilomètre",
             "heading_tag": "h4",
-            "content": "<p>\"Je les ai mises pour un semi-marathon sous la pluie… Pieds secs, pas une seule ampoule. Vraiment top, je vais en recommander direct ✨\"</p>",
+            "content": "<p>Testées sur une grosse rando en montagne… Aucune douleur, zéro ampoule. Franchement bluffé, je vais en commander d’autres.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -318,6 +318,7 @@
         },
         "item_FgzD3F": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/avis6.jpg",
             "column_size": "3",
