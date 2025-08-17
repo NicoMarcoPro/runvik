@@ -675,8 +675,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Question 2",
-            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "title": " Sont-elles adaptées à la transpiration excessive ?",
+            "content": "<p>Absolument. Le tissu technique évacue l’humidité et garde vos pieds au sec, même pendant un marathon ou sous forte chaleur.</p>",
             "page": ""
           }
         },
@@ -685,7 +685,37 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Question 3",
+            "title": "Peut-on les utiliser pour autre chose que la course ?",
+            "content": "<p>Oui, elles sont idéales pour la randonnée, le trail, le crossfit, le vélo… et même pour un confort quotidien.</p>",
+            "page": ""
+          }
+        },
+        "item_CbYJV9": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Comment les laver ?",
+            "content": "<p>En machine à 30°C, à l’envers, sans adoucissant. Séchage à l’air libre recommandé.</p>",
+            "page": ""
+          }
+        },
+        "item_pHpqDf": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Title",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        },
+        "item_TXX4VU": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Title",
             "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
             "page": ""
           }
@@ -694,7 +724,10 @@
       "block_order": [
         "item_xqKnHN",
         "item_zkftep",
-        "item_di73LD"
+        "item_di73LD",
+        "item_CbYJV9",
+        "item_pHpqDf",
+        "item_TXX4VU"
       ],
       "name": "Accordion content",
       "settings": {
