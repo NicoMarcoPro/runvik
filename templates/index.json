@@ -374,6 +374,14 @@
             "show_taxes_notice": false
           }
         },
+        "image_EcEEky": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/aa.svg",
+            "alignment": "start",
+            "max_width": 250
+          }
+        },
         "liquid_YU4bV7": {
           "type": "liquid",
           "settings": {
@@ -501,6 +509,7 @@
         "liquid_NLYC8t",
         "title_nMME87",
         "price_34hYjP",
+        "image_EcEEky",
         "liquid_YU4bV7",
         "separator_EHqGQH",
         "text_ApWpib",
