@@ -310,9 +310,8 @@
         },
         "item_FgzD3F": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/avis6.jpg",
+            "image": "shopify://shop_images/July_is_here_and_so_is_the_heat._Our_Coolmax_socks_wick_sweat_3x_faster_than_cotton_keeping_you.jpg",
             "column_size": "3",
             "title": "Confort du premier au dernier kilomètre",
             "heading_tag": "h4",
