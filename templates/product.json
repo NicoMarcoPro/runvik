@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_6nCKLd": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/FINI_5_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "custom_liquid_fmJbcM": {
       "type": "custom-liquid",
       "disabled": true,
@@ -504,6 +520,7 @@
     }
   },
   "order": [
+    "image_with_text_overlay_6nCKLd",
     "custom_liquid_fmJbcM",
     "main",
     "custom_liquid_7WtY63",
