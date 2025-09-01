@@ -302,6 +302,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_KnLiWk": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Avertissement Runvik</title>\n</head>\n<body>\n    <div class=\"warning-notice\">\n        ⚠️ <strong>PRODUITS AUTHENTIQUES RUNVIK</strong> - Vendus uniquement sur ce site officiel. Évitez les contrefaçons dangereuses.\n    </div>\n\n    <style>\n    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');\n\n    .warning-notice {\n        background: #fef3c7;\n        border-left: 4px solid #f59e0b;\n        padding: 10px 14px;\n        margin: 16px 0;\n        font-family: 'Inter', sans-serif;\n        font-size: 12px;\n        color: #92400e;\n        line-height: 1.4;\n        font-weight: 500;\n    }\n\n    .warning-notice strong {\n        color: #78350f;\n        font-weight: 700;\n    }\n\n    @media (max-width: 768px) {\n        .warning-notice {\n            font-size: 11px;\n            padding: 8px 12px;\n        }\n    }\n    </style>\n</body>\n</html>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_7WtY63": {
       "type": "custom-liquid",
       "disabled": true,
@@ -630,6 +643,7 @@
     "custom_liquid_8WXtBz",
     "custom_liquid_fmJbcM",
     "main",
+    "custom_liquid_KnLiWk",
     "custom_liquid_7WtY63",
     "media_with_text_th8dHQ",
     "media_with_text_KGhdPR",
