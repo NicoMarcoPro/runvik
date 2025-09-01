@@ -145,6 +145,7 @@
         },
         "image_7VqXyX": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/aa.svg",
             "alignment": "start",
