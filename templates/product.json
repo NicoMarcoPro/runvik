@@ -102,14 +102,15 @@
         "image_N8Wh9N": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/image_grid_square.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "Libérez vos pieds, dépassez vos limites.",
+            "content": "<p><strong>Ces ampoules ATROCES qui transforment chaque pas en torture...</strong><br/><strong>Cette PRISON de transpiration qui fait de vos pieds des éponges puantes...</strong><br/><strong>Cette RAGE de devoir abandonner alors que votre mental est encore là...</strong></p><p><strong>STOP. Ça suffit.</strong></p><p>Les chaussettes <strong>Runvik</strong> ANNIHILENT ces souffrances. Leur technologie 5 orteils MASSACRE les frottements, PULVÉRISE l'humidité et DÉCHAÎNE la bête qui sommeille dans vos pieds.</p><p><strong>Vos pieds ne vous TRAHIRONT plus jamais. Votre seule limite, c'est VOUS.</strong></p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
