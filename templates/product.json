@@ -160,6 +160,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_7WtY63": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"runvik-separator\"></div>\n\n<style>\n.runvik-separator {\n  width: 100%;\n  height: 24px; \n  background: linear-gradient(to right, transparent, #e0e0e0, transparent);\n  margin: 0px 0 40px;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_th8dHQ": {
       "type": "media-with-text",
       "blocks": {
@@ -355,6 +368,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_7WtY63",
     "media_with_text_th8dHQ",
     "media_with_text_KGhdPR",
     "custom_liquid_dbRrf8",
