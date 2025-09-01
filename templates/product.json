@@ -132,6 +132,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
@@ -140,6 +141,14 @@
           "type": "liquid",
           "settings": {
             "liquid": "<p class=\"runvik-badge\">\n  #1 DES CHAUSSETTES 5 ORTEILS 2025 🇫🇷\n</p>\n\n<style>\n.runvik-badge {\n  text-align: left;\n  margin-top: -15px;      /* espace au-dessus */\n  margin-bottom: 20px;   /* espace en dessous */\n  padding-top: 5px;      /* espace intérieur haut */\n  padding-bottom: 5px;   /* espace intérieur bas */\n  padding-left: 0;       /* espace intérieur gauche */\n  padding-right: 0;      /* espace intérieur droit */\n  background: none;      /* pas de fond */\n  font-weight: 700;      /* texte en gras */\n  font-size: 16px;       /* taille de la police */\n}\n</style>"
+          }
+        },
+        "image_7VqXyX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/aa.svg",
+            "alignment": "start",
+            "max_width": 220
           }
         },
         "liquid_7PAQHN": {
@@ -251,6 +260,7 @@
         "badges",
         "price",
         "liquid_yFETiF",
+        "image_7VqXyX",
         "liquid_7PAQHN",
         "rating",
         "payment_terms",
