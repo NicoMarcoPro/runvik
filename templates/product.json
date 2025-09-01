@@ -138,6 +138,7 @@
         "image_EY7q3J": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Hollow_PDP-CollageImage_Boot_png.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center text-center",
