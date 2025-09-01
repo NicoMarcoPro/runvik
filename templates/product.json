@@ -256,9 +256,9 @@
           "settings": {
             "image": "shopify://shop_images/avis1.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "\"Plus jamais d'ampoules\"",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Ça faisait 2 ans que j'avais arrêté la course à cause des ampoules. J'ai testé Runvik sur les conseils d'un pote. Premier 10km sans une seule ampoule. Je cours à nouveau 3 fois par semaine maintenant.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -269,9 +269,9 @@
           "settings": {
             "image": "shopify://shop_images/avis2.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "\"Mes pieds respirent enfin\"",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Randonneur du dimanche mais avec des pieds qui transpirent comme des éponges. Impossible de faire plus de 2h sans que ça devienne l'enfer. Avec Runvik, j'ai fait 8h de rando hier. Pieds au sec du début à la fin.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -282,9 +282,9 @@
           "settings": {
             "image": "shopify://shop_images/avis3.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "\"Fini la honte au vestiaire\"",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Mes collègues de travail évitaient mon coin au vestiaire tellement mes pieds puaient après le sport. J'avais même arrêté la salle de sport. Runvik a tout changé. Zéro odeur même après 2h de crossfit intensif.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
