@@ -83,8 +83,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Pourquoi vos pieds SOUFFRENT avec les chaussettes classiques ?",
+            "content": "<p>Les chaussettes normales ÉCRASENT vos orteils ensemble. Résultat : frottements constants, points de pression ATROCES et ampoules garanties. Runvik sépare chaque orteil = ZÉRO frottement.</p>",
             "page": ""
           }
         },
@@ -93,8 +93,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Runvik fonctionne pour TOUS les sports extrêmes ?",
+            "content": "<p>Running, hiking, CrossFit, chantier : vos pieds tiendront JUSQU'AU BOUT.</p>",
             "page": ""
           }
         },
@@ -103,8 +103,8 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Quelle taille pour ne pas se PLANTER ?",
+            "content": "<p>Prenez votre pointure normale. Si ça va pas : échange GRATUIT.</p>",
             "page": ""
           }
         },
@@ -113,8 +113,18 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "title": "Mes Runvik vont durer combien de temps ?",
+            "content": "<p>2 ans MINIMUM d'usage intensif. Garantie ou remboursé.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_33yzQQ": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Je peux les renvoyer si je suis pas CONQUIS ?",
+            "content": "<p>30 jours pour les tester. Pas satisfait = remboursé + frais de retour OFFERTS.</p>",
             "page": ""
           }
         }
@@ -134,7 +144,8 @@
         "collapsible_text_F9jrqq",
         "collapsible_text_hmcLx7",
         "collapsible_text_Dttw8D",
-        "collapsible_text_nLUDCE"
+        "collapsible_text_nLUDCE",
+        "collapsible_text_33yzQQ"
       ],
       "settings": {
         "full_width": true,
