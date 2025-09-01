@@ -364,6 +364,123 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "faq_FB4Xt7": {
+      "type": "faq",
+      "blocks": {
+        "item_T7XD7n": {
+          "type": "item",
+          "settings": {
+            "title": "Pourquoi mes chaussettes actuelles me font souffrir ?",
+            "content": "<p>Les chaussettes classiques écrasent vos orteils ensemble, créent des frottements constants et emprisonnent l'humidité. Runvik sépare chaque orteil = zéro frottement, zéro ampoule, zéro douleur.</p>"
+          }
+        },
+        "item_Bzjn6r": {
+          "type": "item",
+          "settings": {
+            "title": "Runvik fonctionne vraiment pour TOUS les sports ?",
+            "content": "<p>Running, hiking, CrossFit, football, tennis, cyclisme, même debout 12h au boulot. Si vous bougez, Runvik protège. Plus de 10 000 clients nous font confiance dans tous les domaines.</p>"
+          }
+        },
+        "item_jpwYmk": {
+          "type": "item",
+          "settings": {
+            "title": "Je transpire énormément des pieds, ça va marcher ?",
+            "content": "<p>Runvik évacue 3x plus d'humidité que les chaussettes normales. Nos clients les plus \"problématiques\" nous disent : \"mes pieds restent au sec même après 8h d'effort\". Si ça marche pour eux, ça marchera pour vous.</p>"
+          }
+        },
+        "item_XMmReg": {
+          "type": "item",
+          "settings": {
+            "title": "Le prix est élevé, ça vaut vraiment le coup ?",
+            "content": "<p>Une paire Runvik dure 2 ans d'usage intensif. Divisé par 730 jours = moins de 3 centimes par jour pour ne plus jamais avoir d'ampoules. Votre café coûte plus cher.</p>"
+          }
+        },
+        "item_e8V9zY": {
+          "type": "item",
+          "settings": {
+            "title": "Comment je choisis ma taille ?",
+            "content": "<p>Prenez votre pointure habituelle. Runvik s'adapte parfaitement. Si ça ne va pas : échange gratuit sous 30 jours.</p>"
+          }
+        },
+        "item_Wmgjam": {
+          "type": "item",
+          "settings": {
+            "title": "Mes pieds sont TRÈS larges/étroits, ça passe ?",
+            "content": "<p>Runvik épouse la forme naturelle de vos pieds, quelle que soit leur morphologie. La technologie 5 orteils s'adapte à tous les pieds, même les plus atypiques.</p>"
+          }
+        },
+        "item_Rqd9jz": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps pour recevoir ma commande ?",
+            "content": "<p>Expédition sous 24-48h depuis nos entrepôts français. Livraison 2-3 jours ouvrés partout en France métropolitaine.</p>"
+          }
+        },
+        "item_dNt6RY": {
+          "type": "item",
+          "settings": {
+            "title": "Je peux vraiment les tester 30 jours ?",
+            "content": "<p>Oui. Portez-les, transpirez dedans, courez 100km avec. Pas satisfait ? Renvoi gratuit et remboursement intégral. Aucune justification à donner.</p>"
+          }
+        },
+        "item_DVR37z": {
+          "type": "item",
+          "settings": {
+            "title": "Et si j'ai un problème après 30 jours ?",
+            "content": "<p>SAV français disponible par email et téléphone. Défaut de fabrication ? Remplacement gratuit pendant 2 ans. On assume nos produits.</p>"
+          }
+        },
+        "item_HWGzAA": {
+          "type": "item",
+          "settings": {
+            "title": "Je peux laver Runvik en machine ?",
+            "content": "<p>Machine à 30°C, pas d'adoucissant. Sèchent vite à l'air libre. Gardent leurs propriétés techniques après des centaines de lavages.</p>"
+          }
+        },
+        "item_zVTiEa": {
+          "type": "item",
+          "settings": {
+            "title": "Mes ampoules sont vraiment sévères, vous êtes sûrs ?",
+            "content": "<p>Nos clients les plus abîmés (ampoules ouvertes, pieds détruits) retrouvent le plaisir de courir dès la première utilisation. Si Runvik ne résout pas votre problème, remboursement intégral.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_T7XD7n",
+        "item_Bzjn6r",
+        "item_jpwYmk",
+        "item_XMmReg",
+        "item_e8V9zY",
+        "item_Wmgjam",
+        "item_Rqd9jz",
+        "item_dNt6RY",
+        "item_DVR37z",
+        "item_HWGzAA",
+        "item_zVTiEa"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ Runvik - Toutes vos questions",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Une question spécifique ?",
+        "answer_time": "Contact direct : contact@runvik.com ou via notre chat. Réponse sous 24h maximum, souvent dans l'heure.",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -372,6 +489,7 @@
     "media_with_text_th8dHQ",
     "media_with_text_KGhdPR",
     "custom_liquid_dbRrf8",
-    "multi_column_mXm7KM"
+    "multi_column_mXm7KM",
+    "faq_FB4Xt7"
   ]
 }
