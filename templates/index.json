@@ -52,6 +52,7 @@
     },
     "custom_liquid_Pk4Jed": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -115,15 +116,12 @@
         "logo_kx6Fza",
         "logo_H8Bdj7"
       ],
-      "custom_css": [
-        "div {padding-bottom: px;}",
-        "div {padding-top: 5px;}"
-      ],
+      "custom_css": [],
       "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "",
+        "title": "Adopté par les coureurs et athlètes du monde entier",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
@@ -152,6 +150,7 @@
     },
     "custom_liquid_EDtUp6": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "div {padding-bottom: 5px;}",
         "div {padding-top: 10px;}"
