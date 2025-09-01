@@ -458,6 +458,7 @@
     },
     "custom_liquid_cRBNJ8": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [],
       "name": "Custom Liquid",
       "settings": {
@@ -580,9 +581,9 @@
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "small",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
-        "title": "",
+        "title": "Ils ont dit STOP aux ampoules qui ruinent tout",
         "content": "",
         "background": "#f9f9f9",
         "background_gradient": "",
