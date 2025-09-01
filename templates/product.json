@@ -139,7 +139,7 @@
         "liquid_yFETiF": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p style=\"text-align:left; margin:0; background:none; font-weight:700; font-size:16px;\">\n  #1 DES CHAUSSETTES 5 ORTEILS 2025 🇫🇷\n</p>"
+            "liquid": "<p class=\"runvik-badge\">\n  #1 DES CHAUSSETTES 5 ORTEILS 2025 🇫🇷\n</p>\n\n<style>\n.runvik-badge {\n  text-align: left;\n  margin-top: -15px;      /* espace au-dessus */\n  margin-bottom: 20px;   /* espace en dessous */\n  padding-top: 5px;      /* espace intérieur haut */\n  padding-bottom: 5px;   /* espace intérieur bas */\n  padding-left: 0;       /* espace intérieur gauche */\n  padding-right: 0;      /* espace intérieur droit */\n  background: none;      /* pas de fond */\n  font-weight: 700;      /* texte en gras */\n  font-size: 16px;       /* taille de la police */\n}\n</style>"
           }
         },
         "liquid_7PAQHN": {
