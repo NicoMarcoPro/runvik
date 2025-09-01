@@ -262,6 +262,16 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Bénéfices Runvik</title>\n</head>\n<body>\n    <div class=\"benefits-simple\">\n        <div class=\"benefit-line\"> STOP aux ampoules qui ruinent vos exploits</div>\n        <div class=\"benefit-line\"> STOP aux pieds qui BAIGNENT dans leur sueur</div>\n        <div class=\"benefit-line\">STOP aux odeurs qui vous font HONTE</div>\n    </div>\n\n    <style>\n    .benefits-simple {\n        margin: 20px 0;\n        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;\n    }\n    .benefit-line {\n        font-size: 14px;\n        font-weight: 500;\n        color: #333333;\n        line-height: 1.4;\n        margin-bottom: 6px;\n        position: relative;\n        padding-left: 20px;\n    }\n    .benefit-line:last-child {\n        margin-bottom: 0;\n    }\n    .benefit-line:nth-child(1)::before {\n        content: '🩹';\n        position: absolute;\n        left: 0;\n        font-size: 16px;\n    }\n    .benefit-line:nth-child(2)::before {\n        content: '💧';\n        position: absolute;\n        left: 0;\n        font-size: 16px;\n    }\n    .benefit-line:nth-child(3)::before {\n        content: '🤢';\n        position: absolute;\n        left: 0;\n        font-size: 16px;\n    }\n    </style>\n</body>\n</html>"
           }
         },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_tpbWK3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"sizeguide\" data-sg role=\"region\" aria-label=\"Guide des tailles - Chaussettes\">\n  <!-- Bouton -->\n  <button class=\"sizeguide__btn\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\">\n    Guide des tailles\n  </button>\n\n  <!-- Overlay / Modal -->\n  <div class=\"sizeguide__overlay\" role=\"dialog\" aria-modal=\"true\" hidden>\n    <div class=\"sizeguide__modal\" role=\"document\" tabindex=\"-1\">\n      <button class=\"sizeguide__close\" type=\"button\" aria-label=\"Fermer\">×</button>\n      <h3 class=\"sizeguide__title\">Guide des tailles — Chaussettes (EU)</h3>\n      <p class=\"sizeguide__note\">Choisis selon ta pointure EU. Si tu es entre deux tailles ou si tes mollets/chevilles sont forts, prends la taille au-dessus.</p>\n\n      <div class=\"sizeguide__tablewrap\">\n        <table class=\"sizeguide__table\" role=\"table\">\n          <thead>\n            <tr>\n              <th scope=\"col\">Taille</th>\n              <th scope=\"col\">Pointure (EU)</th>\n              <th scope=\"col\">Longueur du pied (cm)</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr><td>S</td><td>35–38</td><td>≈ 22.5 – 24.3</td></tr>\n            <tr><td>M</td><td>39–42</td><td>≈ 24.7 – 26.7</td></tr>\n            <tr><td>L</td><td>43–46</td><td>≈ 27.0 – 29.0</td></tr>\n            <tr><td>XL</td><td>47–50</td><td>≈ 29.3 – 31.3</td></tr>\n          </tbody>\n        </table>\n      </div>\n\n      <p class=\"sizeguide__tips\">Mesure talon→gros orteil, pied au sol, en fin de journée pour un fit réaliste.</p>\n    </div>\n  </div>\n</div>\n\n<style>\n/* ===== Size Guide (scopé) ===== */\n.sizeguide { --sg-orange:#FF6600; --sg-bg:#fff; --sg-text:#222; --sg-muted:#717171; font-family: inherit; }\n.sizeguide [hidden]{ display:none !important; } /* retire du flux quand fermé */\n\n/* Bouton */\n.sizeguide__btn{\n  font-size:13px; line-height:1; padding:8px 12px; border-radius:9999px;\n  border:1px solid var(--sg-orange); background:transparent; color:var(--sg-orange);\n  cursor:pointer; transition:transform .08s ease, background .2s ease, color .2s ease;\n}\n.sizeguide__btn:hover{ background:var(--sg-orange); color:#fff; transform:translateY(-1px); }\n\n/* Overlay centré */\n.sizeguide__overlay{\n  position:fixed; inset:0; display:flex; align-items:center; justify-content:center;\n  padding:16px; background:rgba(0,0,0,.5); z-index:999999;\n  opacity:0; transition:opacity .18s ease;\n}\n.sizeguide__overlay.is-open{ opacity:1; }\n\n/* Carte modal */\n.sizeguide__modal{\n  width:min(92vw, 720px); max-height:85vh; overflow:auto;\n  background:var(--sg-bg); color:var(--sg-text);\n  border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,.2);\n  padding:20px 18px 22px; transform:translateY(8px); transition:transform .18s ease, opacity .18s ease; opacity:.98;\n}\n.sizeguide__overlay.is-open .sizeguide__modal{ transform:translateY(0); opacity:1; }\n\n.sizeguide__title{ margin:2px 32px 6px 2px; font-size:18px; font-weight:700; }\n.sizeguide__note{ margin:0 0 12px 0; font-size:13px; color:var(--sg-muted); }\n\n/* Close */\n.sizeguide__close{\n  position:sticky; top:0; float:right; margin:-4px -4px 8px 8px;\n  border:none; background:transparent; font-size:24px; line-height:1; cursor:pointer; color:#999;\n}\n.sizeguide__close:hover{ color:#333; }\n\n/* Table */\n.sizeguide__tablewrap{ width:100%; overflow-x:hidden; }\n.sizeguide__table{\n  width:100%; border-collapse:collapse; table-layout:fixed; font-size:14px; border-radius:12px; overflow:hidden;\n}\n.sizeguide__table th, .sizeguide__table td{\n  padding:10px 8px; text-align:center; word-wrap:break-word; border-bottom:1px solid #eee;\n}\n.sizeguide__table thead th{\n  position:sticky; top:0; background:var(--sg-orange); color:#fff; font-weight:700;\n}\n.sizeguide__table tbody tr:nth-child(even){ background:#fafafa; }\n\n.sizeguide__tips{ margin:12px 0 4px; font-size:12px; color:var(--sg-muted); }\n</style>\n\n<script>\n(function(){\n  document.querySelectorAll('.sizeguide[data-sg]').forEach((root)=>{\n    const btn     = root.querySelector('.sizeguide__btn');\n    const overlay = root.querySelector('.sizeguide__overlay');\n    const modal   = root.querySelector('.sizeguide__modal');\n    const closeBtn= root.querySelector('.sizeguide__close');\n\n    if(!btn || !overlay) return;\n\n    const open = () => {\n      overlay.hidden = false;\n      requestAnimationFrame(()=> overlay.classList.add('is-open'));\n      document.documentElement.style.overflow = 'hidden';\n      btn.setAttribute('aria-expanded','true');\n      modal && modal.focus();\n    };\n\n    const close = () => {\n      overlay.classList.remove('is-open');\n      const onEnd = () => {\n        overlay.hidden = true;\n        overlay.removeEventListener('transitionend', onEnd);\n      };\n      overlay.addEventListener('transitionend', onEnd);\n      document.documentElement.style.overflow = '';\n      btn.setAttribute('aria-expanded','false');\n    };\n\n    btn.addEventListener('click', open);\n    closeBtn && closeBtn.addEventListener('click', close);\n    overlay.addEventListener('click', (e)=> { if(e.target === overlay) close(); });\n    document.addEventListener('keydown', (e)=> { if(!overlay.hidden && e.key === 'Escape') close(); }, { passive:true });\n  });\n})();\n</script>"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -270,10 +280,6 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {}
-        },
-        "separator": {
-          "type": "separator",
           "settings": {}
         },
         "description": {
@@ -414,9 +420,10 @@
         "liquid_yFETiF",
         "image_7VqXyX",
         "liquid_7PAQHN",
+        "separator",
+        "liquid_tpbWK3",
         "rating",
         "payment_terms",
-        "separator",
         "description",
         "liquid_B8zhQW",
         "liquid_hG9wj9",
