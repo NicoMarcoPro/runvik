@@ -236,6 +236,7 @@
     },
     "custom_liquid_dbRrf8": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -246,12 +247,117 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "multi_column_mXm7KM": {
+      "type": "multi-column",
+      "blocks": {
+        "item_pG3DWM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis1.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pJgGfj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis2.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jhJcRg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis3.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LbAYxP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis4.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VFTajM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis5.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cJhQdK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis6.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_pG3DWM",
+        "item_pJgGfj",
+        "item_jhJcRg",
+        "item_LbAYxP",
+        "item_VFTajM",
+        "item_cJhQdK"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Ils ont dit STOP aux ampoules qui ruinent tout",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "media_with_text_th8dHQ",
     "media_with_text_KGhdPR",
-    "custom_liquid_dbRrf8"
+    "custom_liquid_dbRrf8",
+    "multi_column_mXm7KM"
   ]
 }
