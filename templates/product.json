@@ -264,6 +264,7 @@
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "liquid_tpbWK3": {
