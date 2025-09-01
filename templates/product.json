@@ -235,6 +235,26 @@
             "page": ""
           }
         },
+        "collapsible_text_XyhJUW": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Mes ampoules sont vraiment sévères, vous êtes sûrs ?",
+            "content": "<p>Nos clients les plus abîmés (ampoules ouvertes, pieds détruits) retrouvent le plaisir de courir dès la première utilisation. Si Runvik ne résout pas votre problème, remboursement intégral.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_Djgmp7": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Je transpire énormément des pieds, ça va marcher ?",
+            "content": "<p>Runvik évacue 3x plus d'humidité que les chaussettes normales. Nos clients les plus \"problématiques\" nous disent : \"mes pieds restent au sec même après 8h d'effort\". Si ça marche pour eux, ça marchera pour vous.</p>",
+            "page": ""
+          }
+        },
         "collapsible_text_hmcLx7": {
           "type": "collapsible_text",
           "settings": {
@@ -301,6 +321,8 @@
         "liquid_gWXYV8",
         "liquid_eydEkV",
         "collapsible_text_F9jrqq",
+        "collapsible_text_XyhJUW",
+        "collapsible_text_Djgmp7",
         "collapsible_text_hmcLx7",
         "collapsible_text_Dttw8D",
         "collapsible_text_nLUDCE",
