@@ -26,65 +26,6 @@
         "overlay_opacity": 0
       }
     },
-    "logo_list_KK7K7c": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_NCyqfA": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/JI_LOGO_1.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_jGNpVL": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/L_Equipe_Logo_svg.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_qxKX4F": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Decathlon-Logo.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_Dx6WxN": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/runners-world-logo-vector.png",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_NCyqfA",
-        "logo_jGNpVL",
-        "logo_qxKX4F",
-        "logo_Dx6WxN"
-      ],
-      "name": "Logo list",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "title": "Adopté par les coureurs et athlètes du monde entier",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#ffffff",
-        "logo_item_border": ""
-      }
-    },
     "custom_liquid_fmJbcM": {
       "type": "custom-liquid",
       "disabled": true,
@@ -94,110 +35,6 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
         "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Barre d'annonce Rentrée Runvik</title>\n</head>\n<body>\n    <div class=\"announcement-bar\">\n        <div class=\"announcement-content\">\n            <strong>OFFRE RENTRÉE 2025</strong> - Pack de 4 à <span class=\"price-highlight\">9,99€/paire</span> • Fin dans : <span class=\"countdown\"><span id=\"hours\">11</span>h <span id=\"minutes\">39</span>m <span id=\"seconds\">44</span>s</span>\n        </div>\n    </div>\n\n    <style>\n    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');\n\n    .announcement-bar {\n        background: #f97316;\n        color: white;\n        width: 100vw;\n        position: relative;\n        left: 50%;\n        right: 50%;\n        margin-left: -50vw;\n        margin-right: -50vw;\n        padding: 8px 0;\n        font-family: 'Inter', sans-serif;\n        text-align: center;\n    }\n\n    .announcement-content {\n        font-size: 13px;\n        font-weight: 600;\n        padding: 0 20px;\n    }\n\n    .announcement-content strong {\n        font-weight: 800;\n    }\n\n    .price-highlight {\n        background: #22c55e;\n        color: white;\n        padding: 2px 8px;\n        border-radius: 4px;\n        font-weight: 800;\n    }\n\n    .countdown {\n        font-family: 'Inter', monospace;\n        font-weight: 700;\n        background: rgba(255, 255, 255, 0.15);\n        padding: 2px 8px;\n        border-radius: 4px;\n    }\n\n    @media (max-width: 768px) {\n        .announcement-content {\n            font-size: 12px;\n            padding: 0 16px;\n            line-height: 1.3;\n        }\n        \n        .price-highlight {\n            padding: 1px 6px;\n            font-size: 12px;\n        }\n        \n        .countdown {\n            padding: 1px 6px;\n            font-size: 12px;\n        }\n    }\n    </style>\n\n    <script>\n    function updateCountdown() {\n        const now = new Date().getTime();\n        const tomorrow = new Date();\n        tomorrow.setDate(tomorrow.getDate() + 1);\n        tomorrow.setHours(0, 0, 0, 0);\n        const distance = tomorrow.getTime() - now;\n\n        if (distance > 0) {\n            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n            const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n\n            document.getElementById(\"hours\").textContent = hours.toString().padStart(2, '0');\n            document.getElementById(\"minutes\").textContent = minutes.toString().padStart(2, '0');\n            document.getElementById(\"seconds\").textContent = seconds.toString().padStart(2, '0');\n        } else {\n            location.reload();\n        }\n    }\n\n    setInterval(updateCountdown, 1000);\n    updateCountdown();\n    </script>\n</body>\n</html>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_mXm7KM": {
-      "type": "multi-column",
-      "blocks": {
-        "item_pG3DWM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avis1.jpg",
-            "column_size": "3",
-            "title": "\"Plus jamais d'ampoules\"",
-            "heading_tag": "h4",
-            "content": "<p>Ça faisait 2 ans que j'avais arrêté la course à cause des ampoules. J'ai testé Runvik sur les conseils d'un pote. Premier 10km sans une seule ampoule. Je cours à nouveau 3 fois par semaine maintenant.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_cJhQdK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avis6.jpg",
-            "column_size": "3",
-            "title": "\"La différence dès la première fois\"",
-            "heading_tag": "h4",
-            "content": "<p>Sceptique au début vu le prix. J'ai testé pour une rando de 15km. Aucune ampoule alors que j'en ai systématiquement d'habitude. J'en ai commandé 3 autres paires le lendemain.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_pJgGfj": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avis2.jpg",
-            "column_size": "3",
-            "title": "\"Mes pieds respirent enfin\"",
-            "heading_tag": "h4",
-            "content": "<p>Randonneur du dimanche mais avec des pieds qui transpirent comme des éponges. Impossible de faire plus de 2h sans que ça devienne l'enfer. Avec Runvik, j'ai fait 8h de rando hier. Pieds au sec du début à la fin.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_jhJcRg": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avis3.jpg",
-            "column_size": "3",
-            "title": "\"Fini la honte au vestiaire\"",
-            "heading_tag": "h4",
-            "content": "<p>Mes collègues de travail évitaient mon coin au vestiaire tellement mes pieds puaient après le sport. J'avais même arrêté la salle de sport. Runvik a tout changé. Zéro odeur même après 2h de crossfit intensif.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_LbAYxP": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avis4.jpg",
-            "column_size": "3",
-            "title": "\"Confort inégalé toute la journée\"",
-            "heading_tag": "h4",
-            "content": "<p>Je bosse dans le BTP, 9h debout sur du béton tous les jours. Mes pieds étaient en compote chaque soir. Depuis que j'ai Runvik, je rentre chez moi sans avoir mal aux pieds. Ma femme n'en revient pas.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_VFTajM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/avis5.jpg",
-            "column_size": "3",
-            "title": "\"Mes chaussures de sécurité respirent\"",
-            "heading_tag": "h4",
-            "content": "<p>Chaussures de sécurité 10h par jour, c'est l'enfer pour les pieds. Transpiration, odeurs, inconfort... Runvik change vraiment la donne. Mes pieds restent au sec même par 30°C sur le chantier.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_pG3DWM",
-        "item_cJhQdK",
-        "item_pJgGfj",
-        "item_jhJcRg",
-        "item_LbAYxP",
-        "item_VFTajM"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Ils ont dit STOP aux ampoules qui ruinent tout",
-        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -304,6 +141,12 @@
           "type": "liquid",
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Barre d'annonce Rentrée Runvik</title>\n</head>\n<body>\n    <div class=\"announcement-bar\">\n        <div class=\"announcement-content\">\n            <strong><span class=\"discount-highlight\">-40%</span> OFFRE RENTRÉE 2025</strong> - Pack de 4 à <span class=\"price-highlight\">9,99€/paire</span> • Fin : <span class=\"countdown\"><span id=\"hours\">11</span>h <span id=\"minutes\">39</span>m <span id=\"seconds\">44</span>s</span>\n        </div>\n    </div>\n    <style>\n    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');\n    .announcement-bar {\n        background: #f97316;\n        color: white;\n        width: 100%;\n        padding: 8px 20px;\n        font-family: 'Inter', sans-serif;\n        text-align: center;\n        box-sizing: border-box;\n        margin: 0;\n    }\n    .announcement-content {\n        font-size: 13px;\n        font-weight: 600;\n        padding: 0 20px;\n    }\n    .announcement-content strong {\n        font-weight: 800;\n    }\n    .discount-highlight {\n        background: #22c55e;\n        color: white;\n        padding: 2px 8px;\n        border-radius: 4px;\n        font-weight: 800;\n    }\n    .price-highlight {\n        background: #22c55e;\n        color: white;\n        padding: 2px 8px;\n        border-radius: 4px;\n        font-weight: 800;\n    }\n    .countdown {\n        font-family: 'Inter', monospace;\n        font-weight: 700;\n        background: #dc2626;\n        color: white;\n        padding: 2px 8px;\n        border-radius: 4px;\n    }\n    @media (max-width: 768px) {\n        .announcement-content {\n            font-size: 12px;\n            padding: 0 16px;\n            line-height: 1.3;\n        }\n        \n        .discount-highlight {\n            padding: 1px 6px;\n            font-size: 12px;\n        }\n        \n        .price-highlight {\n            padding: 1px 6px;\n            font-size: 12px;\n        }\n        \n        .countdown {\n            padding: 1px 6px;\n            font-size: 12px;\n            background: #dc2626;\n        }\n    }\n    </style>\n    <script>\n    function updateCountdown() {\n        const now = new Date().getTime();\n        const tomorrow = new Date();\n        tomorrow.setDate(tomorrow.getDate() + 1);\n        tomorrow.setHours(0, 0, 0, 0);\n        const distance = tomorrow.getTime() - now;\n        if (distance > 0) {\n            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n            const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n            document.getElementById(\"hours\").textContent = hours.toString().padStart(2, '0');\n            document.getElementById(\"minutes\").textContent = minutes.toString().padStart(2, '0');\n            document.getElementById(\"seconds\").textContent = seconds.toString().padStart(2, '0');\n        } else {\n            location.reload();\n        }\n    }\n    setInterval(updateCountdown, 1000);\n    updateCountdown();\n    </script>\n</body>\n</html>"
+          }
+        },
+        "liquid_UDdt3C": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign sold_out_color = \"Rouge\" %}\n{% assign show_message = false %}\n\n{% for variant in product.variants %}\n  {% if variant.title contains sold_out_color and variant.available == false %}\n    {% assign show_message = true %}\n  {% endif %}\n{% endfor %}\n\n{% if show_message %}\n  <p style=\"color:#e53935; font-weight:bold; margin-top:10px;\">\n    ⚠ La couleur <span style=\"text-decoration:underline;\">{{ sold_out_color }}</span> \n    est en rupture de stock suite à de fortes commandes.<br>\n    Revenez vite, elle sera bientôt disponible à nouveau !\n  </p>\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -429,6 +272,7 @@
         "description",
         "liquid_B8zhQW",
         "liquid_hG9wj9",
+        "liquid_UDdt3C",
         "buy_buttons",
         "liquid_7j4hbF",
         "liquid_gWXYV8",
@@ -458,6 +302,169 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "logo_list_KK7K7c": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_NCyqfA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/JI_LOGO_1.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_jGNpVL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/L_Equipe_Logo_svg.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_qxKX4F": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Decathlon-Logo.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_Dx6WxN": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/runners-world-logo-vector.png",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_NCyqfA",
+        "logo_jGNpVL",
+        "logo_qxKX4F",
+        "logo_Dx6WxN"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Adopté par les coureurs et athlètes du monde entier",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
+      }
+    },
+    "multi_column_mXm7KM": {
+      "type": "multi-column",
+      "blocks": {
+        "item_pG3DWM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis1.jpg",
+            "column_size": "3",
+            "title": "\"Plus jamais d'ampoules\"",
+            "heading_tag": "h4",
+            "content": "<p>Ça faisait 2 ans que j'avais arrêté la course à cause des ampoules. J'ai testé Runvik sur les conseils d'un pote. Premier 10km sans une seule ampoule. Je cours à nouveau 3 fois par semaine maintenant.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cJhQdK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis6.jpg",
+            "column_size": "3",
+            "title": "\"La différence dès la première fois\"",
+            "heading_tag": "h4",
+            "content": "<p>Sceptique au début vu le prix. J'ai testé pour une rando de 15km. Aucune ampoule alors que j'en ai systématiquement d'habitude. J'en ai commandé 3 autres paires le lendemain.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pJgGfj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis2.jpg",
+            "column_size": "3",
+            "title": "\"Mes pieds respirent enfin\"",
+            "heading_tag": "h4",
+            "content": "<p>Randonneur du dimanche mais avec des pieds qui transpirent comme des éponges. Impossible de faire plus de 2h sans que ça devienne l'enfer. Avec Runvik, j'ai fait 8h de rando hier. Pieds au sec du début à la fin.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jhJcRg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis3.jpg",
+            "column_size": "3",
+            "title": "\"Fini la honte au vestiaire\"",
+            "heading_tag": "h4",
+            "content": "<p>Mes collègues de travail évitaient mon coin au vestiaire tellement mes pieds puaient après le sport. J'avais même arrêté la salle de sport. Runvik a tout changé. Zéro odeur même après 2h de crossfit intensif.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_LbAYxP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis4.jpg",
+            "column_size": "3",
+            "title": "\"Confort inégalé toute la journée\"",
+            "heading_tag": "h4",
+            "content": "<p>Je bosse dans le BTP, 9h debout sur du béton tous les jours. Mes pieds étaient en compote chaque soir. Depuis que j'ai Runvik, je rentre chez moi sans avoir mal aux pieds. Ma femme n'en revient pas.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VFTajM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/avis5.jpg",
+            "column_size": "3",
+            "title": "\"Mes chaussures de sécurité respirent\"",
+            "heading_tag": "h4",
+            "content": "<p>Chaussures de sécurité 10h par jour, c'est l'enfer pour les pieds. Transpiration, odeurs, inconfort... Runvik change vraiment la donne. Mes pieds restent au sec même par 30°C sur le chantier.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_pG3DWM",
+        "item_cJhQdK",
+        "item_pJgGfj",
+        "item_jhJcRg",
+        "item_LbAYxP",
+        "item_VFTajM"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Ils ont dit STOP aux ampoules qui ruinent tout",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "custom_liquid_7WtY63": {
