@@ -11,6 +11,7 @@
   "sections": {
     "image_with_text_overlay_6nCKLd": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -679,11 +680,11 @@
   },
   "order": [
     "image_with_text_overlay_6nCKLd",
-    "logo_list_KK7K7c",
     "custom_liquid_fmJbcM",
-    "multi_column_mXm7KM",
     "custom_liquid_8WXtBz",
     "main",
+    "logo_list_KK7K7c",
+    "multi_column_mXm7KM",
     "custom_liquid_7WtY63",
     "media_with_text_th8dHQ",
     "media_with_text_KGhdPR",
