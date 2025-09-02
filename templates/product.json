@@ -146,7 +146,7 @@
         "liquid_UDdt3C": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% assign sold_out_color = \"Rouge\" %}\n{% assign show_message = false %}\n\n{% for variant in product.variants %}\n  {% if variant.title contains sold_out_color and variant.available == false %}\n    {% assign show_message = true %}\n  {% endif %}\n{% endfor %}\n\n{% if show_message %}\n  <p style=\"color:#e53935; font-weight:bold; margin-top:10px;\">\n    ⚠ La couleur <span style=\"text-decoration:underline;\">{{ sold_out_color }}</span> \n    est en rupture de stock suite à de fortes commandes.<br>\n    Revenez vite, elle sera bientôt disponible à nouveau !\n  </p>\n{% endif %}"
+            "liquid": "{% assign sold_out_color = \"Rouge\" %}\n{% assign show_message = false %}\n\n{% for variant in product.variants %}\n  {% if variant.title contains sold_out_color and variant.available == false %}\n    {% assign show_message = true %}\n  {% endif %}\n{% endfor %}\n\n{% if show_message %}\n  <p style=\"color:#e53935; font-weight:bold; margin-top:10px;\">\n    🔥 Victime de son succès : la couleur \n    <span style=\"text-decoration:underline;\">{{ sold_out_color }}</span> est déjà épuisée.<br>\n    Dépêchez-vous, les autres couleurs partent vite elles aussi !\n  </p>\n{% endif %}"
           }
         },
         "buy_buttons": {
